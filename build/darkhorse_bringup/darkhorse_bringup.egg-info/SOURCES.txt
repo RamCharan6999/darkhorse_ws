@@ -10,6 +10,7 @@ setup.py
 ../../build/darkhorse_bringup/darkhorse_bringup.egg-info/zip-safe
 config/joystick_config.yaml
 darkhorse_bringup/__init__.py
+launch/aeb_comp.launch.py
 launch/dbw_only_testing.launch.py
 launch/manual_testing.launch.py
 launch/radar_test.launch.py

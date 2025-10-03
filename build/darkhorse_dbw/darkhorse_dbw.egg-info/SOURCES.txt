@@ -11,6 +11,8 @@ setup.py
 config/Starkenn_Orion_Radar_x_aBAJA.dbc
 darkhorse_dbw/__init__.py
 darkhorse_dbw/hal_node.py
+darkhorse_dbw/hal_node_jetson.py
+darkhorse_dbw/hal_node_laptop.py
 darkhorse_dbw/nodes/__init__.py
 darkhorse_dbw/nodes/speed_node.py
 resource/darkhorse_dbw

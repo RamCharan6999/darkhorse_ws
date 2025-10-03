@@ -1,0 +1,25 @@
+running egg_info
+writing ../../build/darkhorse_dbw/darkhorse_dbw.egg-info/PKG-INFO
+writing dependency_links to ../../build/darkhorse_dbw/darkhorse_dbw.egg-info/dependency_links.txt
+writing entry points to ../../build/darkhorse_dbw/darkhorse_dbw.egg-info/entry_points.txt
+writing requirements to ../../build/darkhorse_dbw/darkhorse_dbw.egg-info/requires.txt
+writing top-level names to ../../build/darkhorse_dbw/darkhorse_dbw.egg-info/top_level.txt
+reading manifest file '../../build/darkhorse_dbw/darkhorse_dbw.egg-info/SOURCES.txt'
+writing manifest file '../../build/darkhorse_dbw/darkhorse_dbw.egg-info/SOURCES.txt'
+running build
+running build_py
+copying darkhorse_dbw/hal_node_jetson.py -> /home/ram_charan/DH_ws/build/darkhorse_dbw/build/lib/darkhorse_dbw
+running install
+running install_lib
+copying /home/ram_charan/DH_ws/build/darkhorse_dbw/build/lib/darkhorse_dbw/hal_node_jetson.py -> /home/ram_charan/DH_ws/install/darkhorse_dbw/lib/python3.10/site-packages/darkhorse_dbw
+byte-compiling /home/ram_charan/DH_ws/install/darkhorse_dbw/lib/python3.10/site-packages/darkhorse_dbw/hal_node_jetson.py to hal_node_jetson.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/ram_charan/DH_ws/install/darkhorse_dbw/lib/python3.10/site-packages/darkhorse_dbw-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/darkhorse_dbw/darkhorse_dbw.egg-info to /home/ram_charan/DH_ws/install/darkhorse_dbw/lib/python3.10/site-packages/darkhorse_dbw-0.0.0-py3.10.egg-info
+running install_scripts
+Installing hal_node script to /home/ram_charan/DH_ws/install/darkhorse_dbw/lib/darkhorse_dbw
+Installing hal_node_jetson script to /home/ram_charan/DH_ws/install/darkhorse_dbw/lib/darkhorse_dbw
+Installing hal_node_laptop script to /home/ram_charan/DH_ws/install/darkhorse_dbw/lib/darkhorse_dbw
+Installing speed_node script to /home/ram_charan/DH_ws/install/darkhorse_dbw/lib/darkhorse_dbw
+writing list of installed files to '/home/ram_charan/DH_ws/build/darkhorse_dbw/install.log'

@@ -26,6 +26,8 @@ setup(
         'console_scripts': [
             'hal_node = darkhorse_dbw.hal_node:main',
             'speed_node = darkhorse_dbw.nodes.speed_node:main',
+            'hal_node_laptop = darkhorse_dbw.hal_node_laptop:main',
+       	    'hal_node_jetson = darkhorse_dbw.hal_node_jetson:main',
 
         ],
     },

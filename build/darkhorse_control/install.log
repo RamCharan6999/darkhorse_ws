@@ -1,15 +1,11 @@
-/home/ram_charan/DH_ws/install/darkhorse_control/lib/python3.10/site-packages/darkhorse_control/aeb_controller.py
 /home/ram_charan/DH_ws/install/darkhorse_control/lib/python3.10/site-packages/darkhorse_control/fake_speed_publisher.py
 /home/ram_charan/DH_ws/install/darkhorse_control/lib/python3.10/site-packages/darkhorse_control/aeb_node.py
 /home/ram_charan/DH_ws/install/darkhorse_control/lib/python3.10/site-packages/darkhorse_control/__init__.py
 /home/ram_charan/DH_ws/install/darkhorse_control/lib/python3.10/site-packages/darkhorse_control/lka_node.py
-/home/ram_charan/DH_ws/install/darkhorse_control/lib/python3.10/site-packages/darkhorse_control/joy_bridge.py
-/home/ram_charan/DH_ws/install/darkhorse_control/lib/python3.10/site-packages/darkhorse_control/__pycache__/aeb_controller.cpython-310.pyc
 /home/ram_charan/DH_ws/install/darkhorse_control/lib/python3.10/site-packages/darkhorse_control/__pycache__/fake_speed_publisher.cpython-310.pyc
 /home/ram_charan/DH_ws/install/darkhorse_control/lib/python3.10/site-packages/darkhorse_control/__pycache__/aeb_node.cpython-310.pyc
 /home/ram_charan/DH_ws/install/darkhorse_control/lib/python3.10/site-packages/darkhorse_control/__pycache__/__init__.cpython-310.pyc
 /home/ram_charan/DH_ws/install/darkhorse_control/lib/python3.10/site-packages/darkhorse_control/__pycache__/lka_node.cpython-310.pyc
-/home/ram_charan/DH_ws/install/darkhorse_control/lib/python3.10/site-packages/darkhorse_control/__pycache__/joy_bridge.cpython-310.pyc
 /home/ram_charan/DH_ws/install/darkhorse_control/share/ament_index/resource_index/packages/darkhorse_control
 /home/ram_charan/DH_ws/install/darkhorse_control/share/darkhorse_control/package.xml
 /home/ram_charan/DH_ws/install/darkhorse_control/share/darkhorse_control/launch/lka.launch.py

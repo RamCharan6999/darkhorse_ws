@@ -9,10 +9,8 @@ setup.py
 ../../build/darkhorse_control/darkhorse_control.egg-info/top_level.txt
 ../../build/darkhorse_control/darkhorse_control.egg-info/zip-safe
 darkhorse_control/__init__.py
-darkhorse_control/aeb_controller.py
 darkhorse_control/aeb_node.py
 darkhorse_control/fake_speed_publisher.py
-darkhorse_control/joy_bridge.py
 darkhorse_control/lka_node.py
 launch/lka.launch.py
 resource/darkhorse_control

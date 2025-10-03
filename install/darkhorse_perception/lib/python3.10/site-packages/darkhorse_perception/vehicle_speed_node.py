@@ -1,83 +1,100 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Float32
 import Jetson.GPIO as GPIO
-import time
-import math
+import time, math
 
 class VehicleSpeedNode(Node):
     def __init__(self):
         super().__init__('vehicle_speed_node')
 
-        # --- Parameters ---
+        # -------- Parameters --------
         self.declare_parameter('hall1_pin', 17)
         self.declare_parameter('hall2_pin', 27)
         self.declare_parameter('hall3_pin', 22)
-        self.declare_parameter('pole_pairs', 6)
-        self.declare_parameter('gear_ratio', 9.0)
-        self.declare_parameter('wheel_diameter_m', 22.0 * 0.0254)
-        self.declare_parameter('window_ms', 500)
+        self.declare_parameter('pole_pairs', 6)                    # motor-specific
+        self.declare_parameter('gear_ratio', 9.0)                  # motor:wheel
+        self.declare_parameter('wheel_diameter_m', 22.0*0.0254)    # 22" ≈ 0.5588 m
+        self.declare_parameter('window_ms', 500)                   # update window
+        self.declare_parameter('ema_alpha', 0.30)                  # smoothing [0..1]
+        self.declare_parameter('transitions_per_e_rev', 6)         # 6 state changes / elec rev
 
-        self.hall1Pin = self.get_parameter('hall1_pin').value
-        self.hall2Pin = self.get_parameter('hall2_pin').value
-        self.hall3Pin = self.get_parameter('hall3_pin').value
-        self.polePairs = self.get_parameter('pole_pairs').value
-        self.gearRatio = self.get_parameter('gear_ratio').value
-        self.wheelDiameter_m = self.get_parameter('wheel_diameter_m').value
-        self.windowMs = self.get_parameter('window_ms').value
+        self.h1 = int(self.get_parameter('hall1_pin').value)
+        self.h2 = int(self.get_parameter('hall2_pin').value)
+        self.h3 = int(self.get_parameter('hall3_pin').value)
+        self.pole_pairs = int(self.get_parameter('pole_pairs').value)
+        self.gear = float(self.get_parameter('gear_ratio').value)
+        self.wheel_diam = float(self.get_parameter('wheel_diameter_m').value)
+        self.window_ms = int(self.get_parameter('window_ms').value)
+        self.alpha = float(self.get_parameter('ema_alpha').value)
+        self.trans_per_e = int(self.get_parameter('transitions_per_e_rev').value)
 
-        self.wheelCircumference = math.pi * self.wheelDiameter_m
+        self.circ = math.pi * self.wheel_diam
 
-        # --- GPIO setup ---
+        # -------- GPIO --------
         GPIO.setmode(GPIO.BCM)
-        GPIO.setup(self.hall1Pin, GPIO.IN, pull_up_down=GPIO.PUD_UP)
-        GPIO.setup(self.hall2Pin, GPIO.IN, pull_up_down=GPIO.PUD_UP)
-        GPIO.setup(self.hall3Pin, GPIO.IN, pull_up_down=GPIO.PUD_UP)
+        GPIO.setup(self.h1, GPIO.IN, pull_up_down=GPIO.PUD_UP)
+        GPIO.setup(self.h2, GPIO.IN, pull_up_down=GPIO.PUD_UP)
+        GPIO.setup(self.h3, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 
-        self.hallTransitions = 0
-        self.lastState = 0
-        self.lastMillis = time.time() * 1000
+        self._transitions = 0
+        self._last_state = 0
+        self._mps_ema = 0.0
 
-        GPIO.add_event_detect(self.hall1Pin, GPIO.BOTH, callback=self.hallISR)
-        GPIO.add_event_detect(self.hall2Pin, GPIO.BOTH, callback=self.hallISR)
-        GPIO.add_event_detect(self.hall3Pin, GPIO.BOTH, callback=self.hallISR)
+        # attach interrupts
+        GPIO.add_event_detect(self.h1, GPIO.BOTH, callback=self._hall_isr)
+        GPIO.add_event_detect(self.h2, GPIO.BOTH, callback=self._hall_isr)
+        GPIO.add_event_detect(self.h3, GPIO.BOTH, callback=self._hall_isr)
 
-        # Publisher
-        self.pub_speed = self.create_publisher(Float32, '/VehicleSpeed', 10)
+        # -------- Publishers --------
+        self.pub_mps   = self.create_publisher(Float32, 'VehicleSpeed', 10)
+        self.pub_kmph  = self.create_publisher(Float32, 'VehicleSpeedKmph', 10)
+        self.pub_mrpm  = self.create_publisher(Float32, 'MotorRPM', 10)
+        self.pub_wrpm  = self.create_publisher(Float32, 'WheelRPM', 10)
 
-        # Timer to compute every windowMs
-        self.create_timer(self.windowMs / 1000.0, self.update_speed)
+        self.create_timer(self.window_ms/1000.0, self._tick)
+        self.get_logger().info("✅ VehicleSpeedNode up (m/s + km/h + RPM). Note: Jetson internal pullups are ignored; use external pull-ups on Halls.")
 
-        self.get_logger().info("✅ VehicleSpeedNode started")
+    def _hall_isr(self, _channel):
+        # Read all three Halls and form a 3-bit state; count state changes
+        s1 = GPIO.input(self.h1)
+        s2 = GPIO.input(self.h2)
+        s3 = GPIO.input(self.h3)
+        state = (s1 << 2) | (s2 << 1) | s3
+        if state != self._last_state:
+            self._transitions += 1
+            self._last_state = state
 
-    def hallISR(self, channel):
-        h1 = GPIO.input(self.hall1Pin)
-        h2 = GPIO.input(self.hall2Pin)
-        h3 = GPIO.input(self.hall3Pin)
-        state = (h1 << 2) | (h2 << 1) | h3
-        if state != self.lastState:
-            self.hallTransitions += 1
-            self.lastState = state
+    def _tick(self):
+        # take and reset count
+        trans = self._transitions
+        self._transitions = 0
 
-    def update_speed(self):
-        now = time.time() * 1000
-        trans = self.hallTransitions
-        self.hallTransitions = 0
+        # Electrical revolutions in the window:
+        # For 3-hall BLDC you get 6 state changes per electrical revolution.
+        e_rev = trans / max(1, self.trans_per_e)
+        e_rpm = e_rev * (60000.0 / self.window_ms)
 
-        # Each electrical cycle has 6 hall states → 6 transitions
-        electricalRev = trans / 2
-        electricalRPM = electricalRev * (60000.0 / self.windowMs)
-        motorRPM = electricalRPM / self.polePairs
+        # Mechanical motor RPM
+        motor_rpm = e_rpm / max(1, self.pole_pairs)
 
-        wheelRPM = motorRPM / self.gearRatio
-        vehicleSpeed = (wheelRPM * self.wheelCircumference * 60.0) / 1000.0
+        # Wheel RPM
+        wheel_rpm = motor_rpm / max(1e-6, self.gear)
 
-        msg = Float32()
-        msg.data = float(vehicleSpeed)
-        self.pub_speed.publish(msg)
+        # Speed: m/s (preferred for controllers), and km/h for UI
+        mps = (wheel_rpm * self.circ) / 60.0
+        self._mps_ema = (1.0 - self.alpha) * self._mps_ema + self.alpha * mps
+        kmph = self._mps_ema * 3.6
 
-        self.get_logger().info(f"Motor RPM={motorRPM:.1f} | Speed={vehicleSpeed:.2f} km/h")
+        # Publish
+        self.pub_mps.publish(Float32(data=float(self._mps_ema)))
+        self.pub_kmph.publish(Float32(data=float(kmph)))
+        self.pub_mrpm.publish(Float32(data=float(motor_rpm)))
+        self.pub_wrpm.publish(Float32(data=float(wheel_rpm)))
+
+        self.get_logger().info(f"MotorRPM={motor_rpm:.1f} | WheelRPM={wheel_rpm:.1f} | v={self._mps_ema:.2f} m/s ({kmph:.2f} km/h)")
 
 def main(args=None):
     rclpy.init(args=args)
@@ -89,7 +106,8 @@ def main(args=None):
     finally:
         GPIO.cleanup()
         node.destroy_node()
-        rclpy.shutdown()
+        if rclpy.ok():
+            rclpy.shutdown()
 
 if __name__ == '__main__':
     main()

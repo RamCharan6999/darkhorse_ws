@@ -1,0 +1,27 @@
+[0.951s] Invoking command in '/home/ram_charan/DH_ws/src/darkhorse_perception': PYTHONPATH=/home/ram_charan/DH_ws/build/darkhorse_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram_charan/DH_ws/install/darkhorse_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/darkhorse_perception build --build-base /home/ram_charan/DH_ws/build/darkhorse_perception/build install --record /home/ram_charan/DH_ws/build/darkhorse_perception/install.log --single-version-externally-managed install_data
+[1.143s] running egg_info
+[1.144s] writing ../../build/darkhorse_perception/darkhorse_perception.egg-info/PKG-INFO
+[1.144s] writing dependency_links to ../../build/darkhorse_perception/darkhorse_perception.egg-info/dependency_links.txt
+[1.144s] writing entry points to ../../build/darkhorse_perception/darkhorse_perception.egg-info/entry_points.txt
+[1.144s] writing requirements to ../../build/darkhorse_perception/darkhorse_perception.egg-info/requires.txt
+[1.144s] writing top-level names to ../../build/darkhorse_perception/darkhorse_perception.egg-info/top_level.txt
+[1.147s] reading manifest file '../../build/darkhorse_perception/darkhorse_perception.egg-info/SOURCES.txt'
+[1.147s] writing manifest file '../../build/darkhorse_perception/darkhorse_perception.egg-info/SOURCES.txt'
+[1.147s] running build
+[1.147s] running build_py
+[1.147s] copying darkhorse_perception/vehicle_speed_node.py -> /home/ram_charan/DH_ws/build/darkhorse_perception/build/lib/darkhorse_perception
+[1.148s] running install
+[1.148s] running install_lib
+[1.149s] copying /home/ram_charan/DH_ws/build/darkhorse_perception/build/lib/darkhorse_perception/vehicle_speed_node.py -> /home/ram_charan/DH_ws/install/darkhorse_perception/lib/python3.10/site-packages/darkhorse_perception
+[1.149s] byte-compiling /home/ram_charan/DH_ws/install/darkhorse_perception/lib/python3.10/site-packages/darkhorse_perception/vehicle_speed_node.py to vehicle_speed_node.cpython-310.pyc
+[1.150s] running install_data
+[1.150s] running install_egg_info
+[1.152s] removing '/home/ram_charan/DH_ws/install/darkhorse_perception/lib/python3.10/site-packages/darkhorse_perception-0.0.1-py3.10.egg-info' (and everything under it)
+[1.152s] Copying ../../build/darkhorse_perception/darkhorse_perception.egg-info to /home/ram_charan/DH_ws/install/darkhorse_perception/lib/python3.10/site-packages/darkhorse_perception-0.0.1-py3.10.egg-info
+[1.152s] running install_scripts
+[1.170s] Installing camera_node script to /home/ram_charan/DH_ws/install/darkhorse_perception/lib/darkhorse_perception
+[1.170s] Installing radar_rx_node script to /home/ram_charan/DH_ws/install/darkhorse_perception/lib/darkhorse_perception
+[1.170s] Installing radar_visualizer script to /home/ram_charan/DH_ws/install/darkhorse_perception/lib/darkhorse_perception
+[1.170s] Installing vehicle_speed_node script to /home/ram_charan/DH_ws/install/darkhorse_perception/lib/darkhorse_perception
+[1.170s] writing list of installed files to '/home/ram_charan/DH_ws/build/darkhorse_perception/install.log'
+[1.189s] Invoked command in '/home/ram_charan/DH_ws/src/darkhorse_perception' returned '0': PYTHONPATH=/home/ram_charan/DH_ws/build/darkhorse_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram_charan/DH_ws/install/darkhorse_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/darkhorse_perception build --build-base /home/ram_charan/DH_ws/build/darkhorse_perception/build install --record /home/ram_charan/DH_ws/build/darkhorse_perception/install.log --single-version-externally-managed install_data

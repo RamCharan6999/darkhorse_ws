@@ -1,9 +1,13 @@
 /home/ram_charan/DH_ws/install/darkhorse_dbw/lib/python3.10/site-packages/darkhorse_dbw/hal_node.py
 /home/ram_charan/DH_ws/install/darkhorse_dbw/lib/python3.10/site-packages/darkhorse_dbw/__init__.py
+/home/ram_charan/DH_ws/install/darkhorse_dbw/lib/python3.10/site-packages/darkhorse_dbw/hal_node_laptop.py
+/home/ram_charan/DH_ws/install/darkhorse_dbw/lib/python3.10/site-packages/darkhorse_dbw/hal_node_jetson.py
 /home/ram_charan/DH_ws/install/darkhorse_dbw/lib/python3.10/site-packages/darkhorse_dbw/nodes/__init__.py
 /home/ram_charan/DH_ws/install/darkhorse_dbw/lib/python3.10/site-packages/darkhorse_dbw/nodes/speed_node.py
 /home/ram_charan/DH_ws/install/darkhorse_dbw/lib/python3.10/site-packages/darkhorse_dbw/__pycache__/hal_node.cpython-310.pyc
 /home/ram_charan/DH_ws/install/darkhorse_dbw/lib/python3.10/site-packages/darkhorse_dbw/__pycache__/__init__.cpython-310.pyc
+/home/ram_charan/DH_ws/install/darkhorse_dbw/lib/python3.10/site-packages/darkhorse_dbw/__pycache__/hal_node_laptop.cpython-310.pyc
+/home/ram_charan/DH_ws/install/darkhorse_dbw/lib/python3.10/site-packages/darkhorse_dbw/__pycache__/hal_node_jetson.cpython-310.pyc
 /home/ram_charan/DH_ws/install/darkhorse_dbw/lib/python3.10/site-packages/darkhorse_dbw/nodes/__pycache__/__init__.cpython-310.pyc
 /home/ram_charan/DH_ws/install/darkhorse_dbw/lib/python3.10/site-packages/darkhorse_dbw/nodes/__pycache__/speed_node.cpython-310.pyc
 /home/ram_charan/DH_ws/install/darkhorse_dbw/share/ament_index/resource_index/packages/darkhorse_dbw
@@ -17,4 +21,6 @@
 /home/ram_charan/DH_ws/install/darkhorse_dbw/lib/python3.10/site-packages/darkhorse_dbw-0.0.0-py3.10.egg-info/entry_points.txt
 /home/ram_charan/DH_ws/install/darkhorse_dbw/lib/python3.10/site-packages/darkhorse_dbw-0.0.0-py3.10.egg-info/top_level.txt
 /home/ram_charan/DH_ws/install/darkhorse_dbw/lib/darkhorse_dbw/hal_node
+/home/ram_charan/DH_ws/install/darkhorse_dbw/lib/darkhorse_dbw/hal_node_jetson
+/home/ram_charan/DH_ws/install/darkhorse_dbw/lib/darkhorse_dbw/hal_node_laptop
 /home/ram_charan/DH_ws/install/darkhorse_dbw/lib/darkhorse_dbw/speed_node

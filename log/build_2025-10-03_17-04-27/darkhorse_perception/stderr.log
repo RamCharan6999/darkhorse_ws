@@ -1,0 +1,5 @@
+  File "/home/ram_charan/DH_ws/install/darkhorse_perception/lib/python3.10/site-packages/darkhorse_perception/vehicle_speed_node.py", line 262
+    self.pub_steer = self.create_publisher(Float32, "/steering_cmd", 10); self.pub_offs  = self.create_publisher(Float32, "/lane_offset", 10)
+                                                                                       ^
+SyntaxError: invalid non-printable character U+00A0
+
