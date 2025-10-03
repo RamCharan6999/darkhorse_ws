@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing darkhorse_dbw.egg-info/PKG-INFO
+writing dependency_links to darkhorse_dbw.egg-info/dependency_links.txt
+writing entry points to darkhorse_dbw.egg-info/entry_points.txt
+writing requirements to darkhorse_dbw.egg-info/requires.txt
+writing top-level names to darkhorse_dbw.egg-info/top_level.txt
+reading manifest file 'darkhorse_dbw.egg-info/SOURCES.txt'
+writing manifest file 'darkhorse_dbw.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ram_charan/DH_ws/install/darkhorse_dbw/lib/python3.10/site-packages/darkhorse-dbw.egg-link (link to .)
+Installing hal_node script to /home/ram_charan/DH_ws/install/darkhorse_dbw/lib/darkhorse_dbw
+Installing speed_node script to /home/ram_charan/DH_ws/install/darkhorse_dbw/lib/darkhorse_dbw
+
+Installed /home/ram_charan/DH_ws/build/darkhorse_dbw
+running symlink_data

@@ -1,0 +1,365 @@
+[0.221s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.221s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffb7f08f40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb7f08ac0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb7f08ac0>>)
+[0.578s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.579s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/darkhorse/DH_ws/src'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_bringup) by extension 'ignore'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_bringup) by extension 'ignore_ament_install'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_bringup) by extensions ['colcon_pkg']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_bringup) by extension 'colcon_pkg'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_bringup) by extensions ['colcon_meta']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_bringup) by extension 'colcon_meta'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_bringup) by extensions ['ros']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_bringup) by extension 'ros'
+[0.611s] DEBUG:colcon.colcon_core.package_identification:Package 'darkhorse_bringup' with type 'ros.ament_python' and name 'darkhorse_bringup'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_control) by extensions ['ignore', 'ignore_ament_install']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_control) by extension 'ignore'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_control) by extension 'ignore_ament_install'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_control) by extensions ['colcon_pkg']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_control) by extension 'colcon_pkg'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_control) by extensions ['colcon_meta']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_control) by extension 'colcon_meta'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_control) by extensions ['ros']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_control) by extension 'ros'
+[0.613s] DEBUG:colcon.colcon_core.package_identification:Package 'darkhorse_control' with type 'ros.ament_python' and name 'darkhorse_control'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_dbw) by extensions ['ignore', 'ignore_ament_install']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_dbw) by extension 'ignore'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_dbw) by extension 'ignore_ament_install'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_dbw) by extensions ['colcon_pkg']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_dbw) by extension 'colcon_pkg'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_dbw) by extensions ['colcon_meta']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_dbw) by extension 'colcon_meta'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_dbw) by extensions ['ros']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_dbw) by extension 'ros'
+[0.616s] DEBUG:colcon.colcon_core.package_identification:Package 'darkhorse_dbw' with type 'ros.ament_python' and name 'darkhorse_dbw'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_perception) by extensions ['ignore', 'ignore_ament_install']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_perception) by extension 'ignore'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_perception) by extension 'ignore_ament_install'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_perception) by extensions ['colcon_pkg']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_perception) by extension 'colcon_pkg'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_perception) by extensions ['colcon_meta']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_perception) by extension 'colcon_meta'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_perception) by extensions ['ros']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_perception) by extension 'ros'
+[0.618s] DEBUG:colcon.colcon_core.package_identification:Package 'darkhorse_perception' with type 'ros.ament_python' and name 'darkhorse_perception'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers) by extensions ['ignore', 'ignore_ament_install']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers) by extension 'ignore'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers) by extension 'ignore_ament_install'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers) by extensions ['colcon_pkg']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers) by extension 'colcon_pkg'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers) by extensions ['colcon_meta']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers) by extension 'colcon_meta'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers) by extensions ['ros']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers) by extension 'ros'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers) by extensions ['cmake', 'python']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers) by extension 'cmake'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers) by extension 'python'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers) by extensions ['python_setup_py']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers) by extension 'python_setup_py'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joy) by extensions ['ignore', 'ignore_ament_install']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joy) by extension 'ignore'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joy) by extension 'ignore_ament_install'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joy) by extensions ['colcon_pkg']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joy) by extension 'colcon_pkg'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joy) by extensions ['colcon_meta']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joy) by extension 'colcon_meta'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joy) by extensions ['ros']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joy) by extension 'ros'
+[0.623s] DEBUG:colcon.colcon_core.package_identification:Package 'joystick_drivers/joy' with type 'ros.ament_cmake' and name 'joy'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joy_linux) by extensions ['ignore', 'ignore_ament_install']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joy_linux) by extension 'ignore'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joy_linux) by extension 'ignore_ament_install'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joy_linux) by extensions ['colcon_pkg']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joy_linux) by extension 'colcon_pkg'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joy_linux) by extensions ['colcon_meta']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joy_linux) by extension 'colcon_meta'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joy_linux) by extensions ['ros']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joy_linux) by extension 'ros'
+[0.625s] DEBUG:colcon.colcon_core.package_identification:Package 'joystick_drivers/joy_linux' with type 'ros.ament_cmake' and name 'joy_linux'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joystick_drivers) by extensions ['ignore', 'ignore_ament_install']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joystick_drivers) by extension 'ignore'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joystick_drivers) by extension 'ignore_ament_install'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joystick_drivers) by extensions ['colcon_pkg']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joystick_drivers) by extension 'colcon_pkg'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joystick_drivers) by extensions ['colcon_meta']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joystick_drivers) by extension 'colcon_meta'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joystick_drivers) by extensions ['ros']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joystick_drivers) by extension 'ros'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joystick_drivers) ignored
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/ps3joy) by extensions ['ignore', 'ignore_ament_install']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/ps3joy) by extension 'ignore'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/ps3joy) by extension 'ignore_ament_install'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/ps3joy) by extensions ['colcon_pkg']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/ps3joy) by extension 'colcon_pkg'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/ps3joy) by extensions ['colcon_meta']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/ps3joy) by extension 'colcon_meta'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/ps3joy) by extensions ['ros']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/ps3joy) by extension 'ros'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/ps3joy) ignored
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/sdl2_vendor) by extensions ['ignore', 'ignore_ament_install']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/sdl2_vendor) by extension 'ignore'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/sdl2_vendor) by extension 'ignore_ament_install'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/sdl2_vendor) by extensions ['colcon_pkg']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/sdl2_vendor) by extension 'colcon_pkg'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/sdl2_vendor) by extensions ['colcon_meta']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/sdl2_vendor) by extension 'colcon_meta'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/sdl2_vendor) by extensions ['ros']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/sdl2_vendor) by extension 'ros'
+[0.630s] DEBUG:colcon.colcon_core.package_identification:Package 'joystick_drivers/sdl2_vendor' with type 'ros.ament_cmake' and name 'sdl2_vendor'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/spacenav) by extensions ['ignore', 'ignore_ament_install']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/spacenav) by extension 'ignore'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/spacenav) by extension 'ignore_ament_install'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/spacenav) by extensions ['colcon_pkg']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/spacenav) by extension 'colcon_pkg'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/spacenav) by extensions ['colcon_meta']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/spacenav) by extension 'colcon_meta'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/spacenav) by extensions ['ros']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/spacenav) by extension 'ros'
+[0.633s] DEBUG:colcon.colcon_core.package_identification:Package 'joystick_drivers/spacenav' with type 'ros.ament_cmake' and name 'spacenav'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/wiimote) by extensions ['ignore', 'ignore_ament_install']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/wiimote) by extension 'ignore'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/wiimote) by extension 'ignore_ament_install'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/wiimote) by extensions ['colcon_pkg']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/wiimote) by extension 'colcon_pkg'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/wiimote) by extensions ['colcon_meta']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/wiimote) by extension 'colcon_meta'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/wiimote) by extensions ['ros']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/wiimote) by extension 'ros'
+[0.636s] DEBUG:colcon.colcon_core.package_identification:Package 'joystick_drivers/wiimote' with type 'ros.ament_cmake' and name 'wiimote'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/wiimote_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/wiimote_msgs) by extension 'ignore'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/wiimote_msgs) by extension 'ignore_ament_install'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/wiimote_msgs) by extensions ['colcon_pkg']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/wiimote_msgs) by extension 'colcon_pkg'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/wiimote_msgs) by extensions ['colcon_meta']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/wiimote_msgs) by extension 'colcon_meta'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/wiimote_msgs) by extensions ['ros']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/wiimote_msgs) by extension 'ros'
+[0.639s] DEBUG:colcon.colcon_core.package_identification:Package 'joystick_drivers/wiimote_msgs' with type 'ros.ament_cmake' and name 'wiimote_msgs'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.640s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.640s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.640s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.640s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.640s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.714s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.714s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.716s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/darkhorse/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.719s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/darkhorse/DH_ws/install
+[0.719s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_bringup' build argument 'cmake_args' from command line to 'None'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_bringup' build argument 'cmake_target' from command line to 'None'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.723s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.723s] DEBUG:colcon.colcon_core.verb:Building package 'darkhorse_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/darkhorse/DH_ws/src/build/darkhorse_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/darkhorse/DH_ws/src/install/darkhorse_bringup', 'merge_install': False, 'path': '/home/darkhorse/DH_ws/src/darkhorse_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.724s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_control' build argument 'cmake_args' from command line to 'None'
+[0.724s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_control' build argument 'cmake_target' from command line to 'None'
+[0.724s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.724s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.724s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.724s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.724s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.724s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.724s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.724s] DEBUG:colcon.colcon_core.verb:Building package 'darkhorse_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/darkhorse/DH_ws/src/build/darkhorse_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/darkhorse/DH_ws/src/install/darkhorse_control', 'merge_install': False, 'path': '/home/darkhorse/DH_ws/src/darkhorse_control', 'symlink_install': False, 'test_result_base': None}
+[0.725s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_dbw' build argument 'cmake_args' from command line to 'None'
+[0.725s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_dbw' build argument 'cmake_target' from command line to 'None'
+[0.725s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_dbw' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.725s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_dbw' build argument 'cmake_clean_cache' from command line to 'False'
+[0.725s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_dbw' build argument 'cmake_clean_first' from command line to 'False'
+[0.725s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_dbw' build argument 'cmake_force_configure' from command line to 'False'
+[0.725s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_dbw' build argument 'ament_cmake_args' from command line to 'None'
+[0.725s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_dbw' build argument 'catkin_cmake_args' from command line to 'None'
+[0.725s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_dbw' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.725s] DEBUG:colcon.colcon_core.verb:Building package 'darkhorse_dbw' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/darkhorse/DH_ws/src/build/darkhorse_dbw', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/darkhorse/DH_ws/src/install/darkhorse_dbw', 'merge_install': False, 'path': '/home/darkhorse/DH_ws/src/darkhorse_dbw', 'symlink_install': False, 'test_result_base': None}
+[0.726s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_perception' build argument 'cmake_args' from command line to 'None'
+[0.726s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_perception' build argument 'cmake_target' from command line to 'None'
+[0.726s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_perception' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.726s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_perception' build argument 'cmake_clean_cache' from command line to 'False'
+[0.726s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_perception' build argument 'cmake_clean_first' from command line to 'False'
+[0.726s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_perception' build argument 'cmake_force_configure' from command line to 'False'
+[0.726s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_perception' build argument 'ament_cmake_args' from command line to 'None'
+[0.726s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_perception' build argument 'catkin_cmake_args' from command line to 'None'
+[0.726s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_perception' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.726s] DEBUG:colcon.colcon_core.verb:Building package 'darkhorse_perception' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/darkhorse/DH_ws/src/build/darkhorse_perception', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/darkhorse/DH_ws/src/install/darkhorse_perception', 'merge_install': False, 'path': '/home/darkhorse/DH_ws/src/darkhorse_perception', 'symlink_install': False, 'test_result_base': None}
+[0.727s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'cmake_args' from command line to 'None'
+[0.727s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'cmake_target' from command line to 'None'
+[0.727s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.727s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'cmake_clean_cache' from command line to 'False'
+[0.727s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'cmake_clean_first' from command line to 'False'
+[0.727s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'cmake_force_configure' from command line to 'False'
+[0.727s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'ament_cmake_args' from command line to 'None'
+[0.727s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'catkin_cmake_args' from command line to 'None'
+[0.728s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.728s] DEBUG:colcon.colcon_core.verb:Building package 'joy_linux' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/darkhorse/DH_ws/src/build/joy_linux', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/darkhorse/DH_ws/src/install/joy_linux', 'merge_install': False, 'path': '/home/darkhorse/DH_ws/src/joystick_drivers/joy_linux', 'symlink_install': False, 'test_result_base': None}
+[0.728s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'cmake_args' from command line to 'None'
+[0.728s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'cmake_target' from command line to 'None'
+[0.728s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.728s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'cmake_clean_cache' from command line to 'False'
+[0.728s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'cmake_clean_first' from command line to 'False'
+[0.728s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'cmake_force_configure' from command line to 'False'
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'ament_cmake_args' from command line to 'None'
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'catkin_cmake_args' from command line to 'None'
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.729s] DEBUG:colcon.colcon_core.verb:Building package 'sdl2_vendor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/darkhorse/DH_ws/src/build/sdl2_vendor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/darkhorse/DH_ws/src/install/sdl2_vendor', 'merge_install': False, 'path': '/home/darkhorse/DH_ws/src/joystick_drivers/sdl2_vendor', 'symlink_install': False, 'test_result_base': None}
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'cmake_args' from command line to 'None'
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'cmake_target' from command line to 'None'
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.730s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'cmake_clean_cache' from command line to 'False'
+[0.730s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'cmake_clean_first' from command line to 'False'
+[0.730s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'cmake_force_configure' from command line to 'False'
+[0.730s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'ament_cmake_args' from command line to 'None'
+[0.730s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'catkin_cmake_args' from command line to 'None'
+[0.730s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.730s] DEBUG:colcon.colcon_core.verb:Building package 'spacenav' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/darkhorse/DH_ws/src/build/spacenav', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/darkhorse/DH_ws/src/install/spacenav', 'merge_install': False, 'path': '/home/darkhorse/DH_ws/src/joystick_drivers/spacenav', 'symlink_install': False, 'test_result_base': None}
+[0.730s] Level 5:colcon.colcon_core.verb:set package 'wiimote_msgs' build argument 'cmake_args' from command line to 'None'
+[0.731s] Level 5:colcon.colcon_core.verb:set package 'wiimote_msgs' build argument 'cmake_target' from command line to 'None'
+[0.731s] Level 5:colcon.colcon_core.verb:set package 'wiimote_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.731s] Level 5:colcon.colcon_core.verb:set package 'wiimote_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.731s] Level 5:colcon.colcon_core.verb:set package 'wiimote_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.731s] Level 5:colcon.colcon_core.verb:set package 'wiimote_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.731s] Level 5:colcon.colcon_core.verb:set package 'wiimote_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.731s] Level 5:colcon.colcon_core.verb:set package 'wiimote_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.731s] Level 5:colcon.colcon_core.verb:set package 'wiimote_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.731s] DEBUG:colcon.colcon_core.verb:Building package 'wiimote_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/darkhorse/DH_ws/src/build/wiimote_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/darkhorse/DH_ws/src/install/wiimote_msgs', 'merge_install': False, 'path': '/home/darkhorse/DH_ws/src/joystick_drivers/wiimote_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.732s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_args' from command line to 'None'
+[0.732s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_target' from command line to 'None'
+[0.732s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.732s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_clean_cache' from command line to 'False'
+[0.732s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_clean_first' from command line to 'False'
+[0.732s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_force_configure' from command line to 'False'
+[0.732s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'ament_cmake_args' from command line to 'None'
+[0.732s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'catkin_cmake_args' from command line to 'None'
+[0.732s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.732s] DEBUG:colcon.colcon_core.verb:Building package 'joy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/darkhorse/DH_ws/src/build/joy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/darkhorse/DH_ws/src/install/joy', 'merge_install': False, 'path': '/home/darkhorse/DH_ws/src/joystick_drivers/joy', 'symlink_install': False, 'test_result_base': None}
+[0.733s] Level 5:colcon.colcon_core.verb:set package 'wiimote' build argument 'cmake_args' from command line to 'None'
+[0.733s] Level 5:colcon.colcon_core.verb:set package 'wiimote' build argument 'cmake_target' from command line to 'None'
+[0.733s] Level 5:colcon.colcon_core.verb:set package 'wiimote' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.733s] Level 5:colcon.colcon_core.verb:set package 'wiimote' build argument 'cmake_clean_cache' from command line to 'False'
+[0.733s] Level 5:colcon.colcon_core.verb:set package 'wiimote' build argument 'cmake_clean_first' from command line to 'False'
+[0.733s] Level 5:colcon.colcon_core.verb:set package 'wiimote' build argument 'cmake_force_configure' from command line to 'False'
+[0.733s] Level 5:colcon.colcon_core.verb:set package 'wiimote' build argument 'ament_cmake_args' from command line to 'None'
+[0.733s] Level 5:colcon.colcon_core.verb:set package 'wiimote' build argument 'catkin_cmake_args' from command line to 'None'
+[0.733s] Level 5:colcon.colcon_core.verb:set package 'wiimote' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.733s] DEBUG:colcon.colcon_core.verb:Building package 'wiimote' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/darkhorse/DH_ws/src/build/wiimote', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/darkhorse/DH_ws/src/install/wiimote', 'merge_install': False, 'path': '/home/darkhorse/DH_ws/src/joystick_drivers/wiimote', 'symlink_install': False, 'test_result_base': None}
+[0.733s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.736s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.736s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/darkhorse/DH_ws/src/joystick_drivers/sdl2_vendor' with build type 'ament_cmake'
+[0.736s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/darkhorse/DH_ws/src/joystick_drivers/sdl2_vendor'
+[0.742s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.742s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.743s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.747s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/darkhorse/DH_ws/src/joystick_drivers/wiimote_msgs' with build type 'ament_cmake'
+[0.748s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/darkhorse/DH_ws/src/joystick_drivers/wiimote_msgs'
+[0.748s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.748s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.752s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/darkhorse/DH_ws/src/darkhorse_bringup' with build type 'ament_python'
+[0.752s] Level 1:colcon.colcon_core.shell:create_environment_hook('darkhorse_bringup', 'ament_prefix_path')
+[0.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darkhorse/DH_ws/src/install/darkhorse_bringup/share/darkhorse_bringup/hook/ament_prefix_path.ps1'
+[0.754s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darkhorse/DH_ws/src/install/darkhorse_bringup/share/darkhorse_bringup/hook/ament_prefix_path.dsv'
+[0.755s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darkhorse/DH_ws/src/install/darkhorse_bringup/share/darkhorse_bringup/hook/ament_prefix_path.sh'
+[0.757s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.757s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.760s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/darkhorse/DH_ws/src/darkhorse_control' with build type 'ament_python'
+[0.760s] Level 1:colcon.colcon_core.shell:create_environment_hook('darkhorse_control', 'ament_prefix_path')
+[0.761s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darkhorse/DH_ws/src/install/darkhorse_control/share/darkhorse_control/hook/ament_prefix_path.ps1'
+[0.762s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darkhorse/DH_ws/src/install/darkhorse_control/share/darkhorse_control/hook/ament_prefix_path.dsv'
+[0.763s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darkhorse/DH_ws/src/install/darkhorse_control/share/darkhorse_control/hook/ament_prefix_path.sh'
+[0.764s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.764s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.768s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/darkhorse/DH_ws/src/darkhorse_dbw' with build type 'ament_python'
+[0.768s] Level 1:colcon.colcon_core.shell:create_environment_hook('darkhorse_dbw', 'ament_prefix_path')
+[0.769s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darkhorse/DH_ws/src/install/darkhorse_dbw/share/darkhorse_dbw/hook/ament_prefix_path.ps1'
+[0.770s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darkhorse/DH_ws/src/install/darkhorse_dbw/share/darkhorse_dbw/hook/ament_prefix_path.dsv'
+[0.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darkhorse/DH_ws/src/install/darkhorse_dbw/share/darkhorse_dbw/hook/ament_prefix_path.sh'
+[0.772s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.772s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.775s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/darkhorse/DH_ws/src/darkhorse_perception' with build type 'ament_python'
+[0.776s] Level 1:colcon.colcon_core.shell:create_environment_hook('darkhorse_perception', 'ament_prefix_path')
+[0.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darkhorse/DH_ws/src/install/darkhorse_perception/share/darkhorse_perception/hook/ament_prefix_path.ps1'
+[0.777s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darkhorse/DH_ws/src/install/darkhorse_perception/share/darkhorse_perception/hook/ament_prefix_path.dsv'
+[0.778s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darkhorse/DH_ws/src/install/darkhorse_perception/share/darkhorse_perception/hook/ament_prefix_path.sh'
+[0.779s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.779s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.791s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darkhorse/DH_ws/src/build/sdl2_vendor': CMAKE_PREFIX_PATH=/home/darkhorse/DH_ws/install/darkhorse_perception:/home/darkhorse/DH_ws/install/darkhorse_dbw:/home/darkhorse/DH_ws/install/darkhorse_control:/home/darkhorse/DH_ws/install/darkhorse_bringup /usr/bin/cmake /home/darkhorse/DH_ws/src/joystick_drivers/sdl2_vendor -DCMAKE_INSTALL_PREFIX=/home/darkhorse/DH_ws/src/install/sdl2_vendor
+[0.799s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darkhorse/DH_ws/src/build/wiimote_msgs': CMAKE_PREFIX_PATH=/home/darkhorse/DH_ws/install/darkhorse_perception:/home/darkhorse/DH_ws/install/darkhorse_dbw:/home/darkhorse/DH_ws/install/darkhorse_control:/home/darkhorse/DH_ws/install/darkhorse_bringup /usr/bin/cmake /home/darkhorse/DH_ws/src/joystick_drivers/wiimote_msgs -DCMAKE_INSTALL_PREFIX=/home/darkhorse/DH_ws/src/install/wiimote_msgs
+[1.369s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/darkhorse/DH_ws/src/darkhorse_bringup'
+[1.370s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.370s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.983s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/darkhorse/DH_ws/src/darkhorse_control'
+[1.984s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.984s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.572s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'darkhorse_dbw' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[2.573s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'darkhorse_dbw' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[2.574s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/darkhorse/DH_ws/src/darkhorse_dbw'
+[2.574s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.575s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.149s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/darkhorse/DH_ws/src/darkhorse_perception'
+[3.150s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.150s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.161s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darkhorse/DH_ws/src/build/wiimote_msgs' returned '1': CMAKE_PREFIX_PATH=/home/darkhorse/DH_ws/install/darkhorse_perception:/home/darkhorse/DH_ws/install/darkhorse_dbw:/home/darkhorse/DH_ws/install/darkhorse_control:/home/darkhorse/DH_ws/install/darkhorse_bringup /usr/bin/cmake /home/darkhorse/DH_ws/src/joystick_drivers/wiimote_msgs -DCMAKE_INSTALL_PREFIX=/home/darkhorse/DH_ws/src/install/wiimote_msgs
+[3.165s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darkhorse/DH_ws/src/build/sdl2_vendor' returned '0': CMAKE_PREFIX_PATH=/home/darkhorse/DH_ws/install/darkhorse_perception:/home/darkhorse/DH_ws/install/darkhorse_dbw:/home/darkhorse/DH_ws/install/darkhorse_control:/home/darkhorse/DH_ws/install/darkhorse_bringup /usr/bin/cmake /home/darkhorse/DH_ws/src/joystick_drivers/sdl2_vendor -DCMAKE_INSTALL_PREFIX=/home/darkhorse/DH_ws/src/install/sdl2_vendor
+[3.170s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darkhorse/DH_ws/src/build/sdl2_vendor': CMAKE_PREFIX_PATH=/home/darkhorse/DH_ws/install/darkhorse_perception:/home/darkhorse/DH_ws/install/darkhorse_dbw:/home/darkhorse/DH_ws/install/darkhorse_control:/home/darkhorse/DH_ws/install/darkhorse_bringup /usr/bin/cmake --build /home/darkhorse/DH_ws/src/build/sdl2_vendor -- -j6 -l6
+[3.198s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wiimote_msgs)
+[3.203s] Level 1:colcon.colcon_core.environment:checking '/home/darkhorse/DH_ws/src/install/wiimote_msgs' for CMake module files
+[3.204s] Level 1:colcon.colcon_core.environment:checking '/home/darkhorse/DH_ws/src/install/wiimote_msgs' for CMake config files
+[3.205s] Level 1:colcon.colcon_core.environment:checking '/home/darkhorse/DH_ws/src/install/wiimote_msgs/bin'
+[3.205s] Level 1:colcon.colcon_core.environment:checking '/home/darkhorse/DH_ws/src/install/wiimote_msgs/lib/pkgconfig/wiimote_msgs.pc'
+[3.205s] Level 1:colcon.colcon_core.environment:checking '/home/darkhorse/DH_ws/src/install/wiimote_msgs/lib/python3.10/site-packages'
+[3.206s] Level 1:colcon.colcon_core.environment:checking '/home/darkhorse/DH_ws/src/install/wiimote_msgs/bin'
+[3.206s] INFO:colcon.colcon_core.shell:Creating package script '/home/darkhorse/DH_ws/src/install/wiimote_msgs/share/wiimote_msgs/package.ps1'
+[3.210s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/darkhorse/DH_ws/src/install/wiimote_msgs/share/wiimote_msgs/package.dsv'
+[3.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/darkhorse/DH_ws/src/install/wiimote_msgs/share/wiimote_msgs/package.sh'
+[3.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/darkhorse/DH_ws/src/install/wiimote_msgs/share/wiimote_msgs/package.bash'
+[3.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/darkhorse/DH_ws/src/install/wiimote_msgs/share/wiimote_msgs/package.zsh'
+[3.215s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/darkhorse/DH_ws/src/install/wiimote_msgs/share/colcon-core/packages/wiimote_msgs)
+[3.979s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.980s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.980s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[3.981s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.999s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.999s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.999s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.043s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.044s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/darkhorse/DH_ws/src/install/local_setup.ps1'
+[4.047s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/darkhorse/DH_ws/src/install/_local_setup_util_ps1.py'
+[4.051s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/darkhorse/DH_ws/src/install/setup.ps1'
+[4.054s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/darkhorse/DH_ws/src/install/local_setup.sh'
+[4.056s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/darkhorse/DH_ws/src/install/_local_setup_util_sh.py'
+[4.057s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/darkhorse/DH_ws/src/install/setup.sh'
+[4.061s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/darkhorse/DH_ws/src/install/local_setup.bash'
+[4.062s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/darkhorse/DH_ws/src/install/setup.bash'
+[4.066s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/darkhorse/DH_ws/src/install/local_setup.zsh'
+[4.067s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/darkhorse/DH_ws/src/install/setup.zsh'

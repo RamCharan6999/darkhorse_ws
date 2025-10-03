@@ -1,0 +1,22 @@
+running develop
+running egg_info
+writing darkhorse_control.egg-info/PKG-INFO
+writing dependency_links to darkhorse_control.egg-info/dependency_links.txt
+writing entry points to darkhorse_control.egg-info/entry_points.txt
+writing requirements to darkhorse_control.egg-info/requires.txt
+writing top-level names to darkhorse_control.egg-info/top_level.txt
+reading manifest file 'darkhorse_control.egg-info/SOURCES.txt'
+writing manifest file 'darkhorse_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ram_charan/DH_ws/install/darkhorse_control/lib/python3.10/site-packages/darkhorse-control.egg-link (link to .)
+Installing acc_node script to /home/ram_charan/DH_ws/install/darkhorse_control/lib/darkhorse_control
+Installing aeb_controller script to /home/ram_charan/DH_ws/install/darkhorse_control/lib/darkhorse_control
+Installing aeb_node script to /home/ram_charan/DH_ws/install/darkhorse_control/lib/darkhorse_control
+Installing fake_speed_publisher script to /home/ram_charan/DH_ws/install/darkhorse_control/lib/darkhorse_control
+Installing joy_bridge script to /home/ram_charan/DH_ws/install/darkhorse_control/lib/darkhorse_control
+Installing mission_control_node script to /home/ram_charan/DH_ws/install/darkhorse_control/lib/darkhorse_control
+
+Installed /home/ram_charan/DH_ws/build/darkhorse_control
+running symlink_data
+symbolically linking /home/ram_charan/DH_ws/build/darkhorse_control/resource/darkhorse_control -> /home/ram_charan/DH_ws/install/darkhorse_control/share/ament_index/resource_index/packages
+symbolically linking /home/ram_charan/DH_ws/build/darkhorse_control/package.xml -> /home/ram_charan/DH_ws/install/darkhorse_control/share/darkhorse_control

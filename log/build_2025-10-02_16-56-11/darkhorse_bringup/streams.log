@@ -1,0 +1,29 @@
+[1.282s] Invoking command in '/home/ram_charan/DH_ws/build/darkhorse_bringup': PYTHONPATH=/home/ram_charan/DH_ws/build/darkhorse_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram_charan/DH_ws/install/darkhorse_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ram_charan/DH_ws/build/darkhorse_bringup/build --no-deps symlink_data
+[1.586s] running develop
+[1.786s] running egg_info
+[1.786s] creating darkhorse_bringup.egg-info
+[1.786s] writing darkhorse_bringup.egg-info/PKG-INFO
+[1.786s] writing dependency_links to darkhorse_bringup.egg-info/dependency_links.txt
+[1.786s] writing entry points to darkhorse_bringup.egg-info/entry_points.txt
+[1.787s] writing requirements to darkhorse_bringup.egg-info/requires.txt
+[1.787s] writing top-level names to darkhorse_bringup.egg-info/top_level.txt
+[1.787s] writing manifest file 'darkhorse_bringup.egg-info/SOURCES.txt'
+[1.789s] reading manifest file 'darkhorse_bringup.egg-info/SOURCES.txt'
+[1.790s] writing manifest file 'darkhorse_bringup.egg-info/SOURCES.txt'
+[1.792s] running build_ext
+[1.792s] Creating /home/ram_charan/DH_ws/install/darkhorse_bringup/lib/python3.10/site-packages/darkhorse-bringup.egg-link (link to .)
+[1.793s] 
+[1.793s] Installed /home/ram_charan/DH_ws/build/darkhorse_bringup
+[1.793s] running symlink_data
+[1.793s] creating /home/ram_charan/DH_ws/install/darkhorse_bringup/share/ament_index
+[1.793s] creating /home/ram_charan/DH_ws/install/darkhorse_bringup/share/ament_index/resource_index
+[1.793s] creating /home/ram_charan/DH_ws/install/darkhorse_bringup/share/ament_index/resource_index/packages
+[1.794s] symbolically linking /home/ram_charan/DH_ws/build/darkhorse_bringup/resource/darkhorse_bringup -> /home/ram_charan/DH_ws/install/darkhorse_bringup/share/ament_index/resource_index/packages
+[1.794s] symbolically linking /home/ram_charan/DH_ws/build/darkhorse_bringup/package.xml -> /home/ram_charan/DH_ws/install/darkhorse_bringup/share/darkhorse_bringup
+[1.794s] creating /home/ram_charan/DH_ws/install/darkhorse_bringup/share/darkhorse_bringup/launch
+[1.794s] symbolically linking /home/ram_charan/DH_ws/build/darkhorse_bringup/launch/dbw_only_testing.launch.py -> /home/ram_charan/DH_ws/install/darkhorse_bringup/share/darkhorse_bringup/launch
+[1.794s] symbolically linking /home/ram_charan/DH_ws/build/darkhorse_bringup/launch/manual_testing.launch.py -> /home/ram_charan/DH_ws/install/darkhorse_bringup/share/darkhorse_bringup/launch
+[1.794s] symbolically linking /home/ram_charan/DH_ws/build/darkhorse_bringup/launch/radar_test.launch.py -> /home/ram_charan/DH_ws/install/darkhorse_bringup/share/darkhorse_bringup/launch
+[1.794s] creating /home/ram_charan/DH_ws/install/darkhorse_bringup/share/darkhorse_bringup/config
+[1.794s] symbolically linking /home/ram_charan/DH_ws/build/darkhorse_bringup/config/joystick_config.yaml -> /home/ram_charan/DH_ws/install/darkhorse_bringup/share/darkhorse_bringup/config
+[1.845s] Invoked command in '/home/ram_charan/DH_ws/build/darkhorse_bringup' returned '0': PYTHONPATH=/home/ram_charan/DH_ws/build/darkhorse_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram_charan/DH_ws/install/darkhorse_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ram_charan/DH_ws/build/darkhorse_bringup/build --no-deps symlink_data

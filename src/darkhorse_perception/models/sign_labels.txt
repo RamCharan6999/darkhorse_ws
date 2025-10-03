@@ -1,0 +1,8 @@
+speed_5
+speed_10
+speed_15
+speed_20
+speed_30
+speed_40
+speed_60
+speed_80

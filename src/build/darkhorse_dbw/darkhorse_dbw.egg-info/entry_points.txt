@@ -1,0 +1,3 @@
+[console_scripts]
+hal_node = darkhorse_dbw.hal_node:main
+

@@ -1,0 +1,36 @@
+[1.340s] Invoking command in '/home/darkhorse/DH_ws/src/darkhorse_bringup': PYTHONPATH=/home/darkhorse/DH_ws/src/darkhorse_bringup/build/darkhorse_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darkhorse/DH_ws/src/darkhorse_bringup/install/darkhorse_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/darkhorse_bringup build --build-base /home/darkhorse/DH_ws/src/darkhorse_bringup/build/darkhorse_bringup/build install --record /home/darkhorse/DH_ws/src/darkhorse_bringup/build/darkhorse_bringup/install.log --single-version-externally-managed install_data
+[1.843s] running egg_info
+[1.845s] creating build/darkhorse_bringup/darkhorse_bringup.egg-info
+[1.845s] writing build/darkhorse_bringup/darkhorse_bringup.egg-info/PKG-INFO
+[1.846s] writing dependency_links to build/darkhorse_bringup/darkhorse_bringup.egg-info/dependency_links.txt
+[1.846s] writing entry points to build/darkhorse_bringup/darkhorse_bringup.egg-info/entry_points.txt
+[1.846s] writing requirements to build/darkhorse_bringup/darkhorse_bringup.egg-info/requires.txt
+[1.846s] writing top-level names to build/darkhorse_bringup/darkhorse_bringup.egg-info/top_level.txt
+[1.847s] writing manifest file 'build/darkhorse_bringup/darkhorse_bringup.egg-info/SOURCES.txt'
+[1.850s] reading manifest file 'build/darkhorse_bringup/darkhorse_bringup.egg-info/SOURCES.txt'
+[1.851s] writing manifest file 'build/darkhorse_bringup/darkhorse_bringup.egg-info/SOURCES.txt'
+[1.851s] running build
+[1.852s] running build_py
+[1.852s] creating /home/darkhorse/DH_ws/src/darkhorse_bringup/build/darkhorse_bringup/build
+[1.852s] creating /home/darkhorse/DH_ws/src/darkhorse_bringup/build/darkhorse_bringup/build/lib
+[1.852s] creating /home/darkhorse/DH_ws/src/darkhorse_bringup/build/darkhorse_bringup/build/lib/darkhorse_bringup
+[1.853s] copying darkhorse_bringup/__init__.py -> /home/darkhorse/DH_ws/src/darkhorse_bringup/build/darkhorse_bringup/build/lib/darkhorse_bringup
+[1.853s] running install
+[1.853s] running install_lib
+[1.855s] creating /home/darkhorse/DH_ws/src/darkhorse_bringup/install/darkhorse_bringup/lib/python3.10/site-packages/darkhorse_bringup
+[1.855s] copying /home/darkhorse/DH_ws/src/darkhorse_bringup/build/darkhorse_bringup/build/lib/darkhorse_bringup/__init__.py -> /home/darkhorse/DH_ws/src/darkhorse_bringup/install/darkhorse_bringup/lib/python3.10/site-packages/darkhorse_bringup
+[1.856s] byte-compiling /home/darkhorse/DH_ws/src/darkhorse_bringup/install/darkhorse_bringup/lib/python3.10/site-packages/darkhorse_bringup/__init__.py to __init__.cpython-310.pyc
+[1.856s] running install_data
+[1.857s] creating /home/darkhorse/DH_ws/src/darkhorse_bringup/install/darkhorse_bringup/share/ament_index
+[1.857s] creating /home/darkhorse/DH_ws/src/darkhorse_bringup/install/darkhorse_bringup/share/ament_index/resource_index
+[1.857s] creating /home/darkhorse/DH_ws/src/darkhorse_bringup/install/darkhorse_bringup/share/ament_index/resource_index/packages
+[1.857s] copying resource/darkhorse_bringup -> /home/darkhorse/DH_ws/src/darkhorse_bringup/install/darkhorse_bringup/share/ament_index/resource_index/packages
+[1.858s] copying package.xml -> /home/darkhorse/DH_ws/src/darkhorse_bringup/install/darkhorse_bringup/share/darkhorse_bringup
+[1.858s] creating /home/darkhorse/DH_ws/src/darkhorse_bringup/install/darkhorse_bringup/share/darkhorse_bringup/launch
+[1.858s] copying launch/manual_testing.launch.py -> /home/darkhorse/DH_ws/src/darkhorse_bringup/install/darkhorse_bringup/share/darkhorse_bringup/launch
+[1.858s] copying launch/radar_test.launch.py -> /home/darkhorse/DH_ws/src/darkhorse_bringup/install/darkhorse_bringup/share/darkhorse_bringup/launch
+[1.858s] running install_egg_info
+[1.864s] Copying build/darkhorse_bringup/darkhorse_bringup.egg-info to /home/darkhorse/DH_ws/src/darkhorse_bringup/install/darkhorse_bringup/lib/python3.10/site-packages/darkhorse_bringup-0.0.0-py3.10.egg-info
+[1.866s] running install_scripts
+[1.908s] writing list of installed files to '/home/darkhorse/DH_ws/src/darkhorse_bringup/build/darkhorse_bringup/install.log'
+[1.975s] Invoked command in '/home/darkhorse/DH_ws/src/darkhorse_bringup' returned '0': PYTHONPATH=/home/darkhorse/DH_ws/src/darkhorse_bringup/build/darkhorse_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darkhorse/DH_ws/src/darkhorse_bringup/install/darkhorse_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/darkhorse_bringup build --build-base /home/darkhorse/DH_ws/src/darkhorse_bringup/build/darkhorse_bringup/build install --record /home/darkhorse/DH_ws/src/darkhorse_bringup/build/darkhorse_bringup/install.log --single-version-externally-managed install_data

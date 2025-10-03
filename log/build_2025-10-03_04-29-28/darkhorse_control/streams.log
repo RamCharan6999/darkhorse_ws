@@ -1,0 +1,23 @@
+[1.615s] Invoking command in '/home/ram_charan/DH_ws/build/darkhorse_control': PYTHONPATH=/home/ram_charan/DH_ws/build/darkhorse_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram_charan/DH_ws/install/darkhorse_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ram_charan/DH_ws/build/darkhorse_control/build --no-deps symlink_data
+[2.017s] running develop
+[2.236s] running egg_info
+[2.236s] writing darkhorse_control.egg-info/PKG-INFO
+[2.236s] writing dependency_links to darkhorse_control.egg-info/dependency_links.txt
+[2.236s] writing entry points to darkhorse_control.egg-info/entry_points.txt
+[2.236s] writing requirements to darkhorse_control.egg-info/requires.txt
+[2.236s] writing top-level names to darkhorse_control.egg-info/top_level.txt
+[2.238s] reading manifest file 'darkhorse_control.egg-info/SOURCES.txt'
+[2.239s] writing manifest file 'darkhorse_control.egg-info/SOURCES.txt'
+[2.241s] running build_ext
+[2.242s] Creating /home/ram_charan/DH_ws/install/darkhorse_control/lib/python3.10/site-packages/darkhorse-control.egg-link (link to .)
+[2.242s] Installing acc_node script to /home/ram_charan/DH_ws/install/darkhorse_control/lib/darkhorse_control
+[2.243s] Installing aeb_controller script to /home/ram_charan/DH_ws/install/darkhorse_control/lib/darkhorse_control
+[2.243s] Installing aeb_node script to /home/ram_charan/DH_ws/install/darkhorse_control/lib/darkhorse_control
+[2.243s] Installing fake_speed_publisher script to /home/ram_charan/DH_ws/install/darkhorse_control/lib/darkhorse_control
+[2.244s] Installing joy_bridge script to /home/ram_charan/DH_ws/install/darkhorse_control/lib/darkhorse_control
+[2.245s] Installing lka_node script to /home/ram_charan/DH_ws/install/darkhorse_control/lib/darkhorse_control
+[2.245s] Installing mission_control_node script to /home/ram_charan/DH_ws/install/darkhorse_control/lib/darkhorse_control
+[2.245s] 
+[2.245s] Installed /home/ram_charan/DH_ws/build/darkhorse_control
+[2.245s] running symlink_data
+[2.278s] Invoked command in '/home/ram_charan/DH_ws/build/darkhorse_control' returned '0': PYTHONPATH=/home/ram_charan/DH_ws/build/darkhorse_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram_charan/DH_ws/install/darkhorse_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ram_charan/DH_ws/build/darkhorse_control/build --no-deps symlink_data

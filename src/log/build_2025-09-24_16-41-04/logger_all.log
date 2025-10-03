@@ -1,0 +1,267 @@
+[0.178s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.178s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x759796b55270>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x759796c42cb0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x759796c42cb0>>)
+[0.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.357s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ram_charan/DH_ws/src'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_bringup) by extension 'ignore'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_bringup) by extension 'ignore_ament_install'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_bringup) by extensions ['colcon_pkg']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_bringup) by extension 'colcon_pkg'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_bringup) by extensions ['colcon_meta']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_bringup) by extension 'colcon_meta'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_bringup) by extensions ['ros']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_bringup) by extension 'ros'
+[0.371s] DEBUG:colcon.colcon_core.package_identification:Package 'darkhorse_bringup' with type 'ros.ament_python' and name 'darkhorse_bringup'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_control) by extensions ['ignore', 'ignore_ament_install']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_control) by extension 'ignore'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_control) by extension 'ignore_ament_install'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_control) by extensions ['colcon_pkg']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_control) by extension 'colcon_pkg'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_control) by extensions ['colcon_meta']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_control) by extension 'colcon_meta'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_control) by extensions ['ros']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_control) by extension 'ros'
+[0.372s] DEBUG:colcon.colcon_core.package_identification:Package 'darkhorse_control' with type 'ros.ament_python' and name 'darkhorse_control'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_dbw) by extensions ['ignore', 'ignore_ament_install']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_dbw) by extension 'ignore'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_dbw) by extension 'ignore_ament_install'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_dbw) by extensions ['colcon_pkg']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_dbw) by extension 'colcon_pkg'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_dbw) by extensions ['colcon_meta']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_dbw) by extension 'colcon_meta'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_dbw) by extensions ['ros']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_dbw) by extension 'ros'
+[0.373s] DEBUG:colcon.colcon_core.package_identification:Package 'darkhorse_dbw' with type 'ros.ament_python' and name 'darkhorse_dbw'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_perception) by extensions ['ignore', 'ignore_ament_install']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_perception) by extension 'ignore'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_perception) by extension 'ignore_ament_install'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_perception) by extensions ['colcon_pkg']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_perception) by extension 'colcon_pkg'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_perception) by extensions ['colcon_meta']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_perception) by extension 'colcon_meta'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_perception) by extensions ['ros']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(darkhorse_perception) by extension 'ros'
+[0.374s] DEBUG:colcon.colcon_core.package_identification:Package 'darkhorse_perception' with type 'ros.ament_python' and name 'darkhorse_perception'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(vehicle_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(vehicle_msgs) by extension 'ignore'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(vehicle_msgs) ignored
+[0.375s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.375s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.375s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.375s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.375s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.403s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.403s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.405s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/ram_charan/DH_ws/install
+[0.406s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/ram_charan/DH_ws/src/darkhorse_control/darkhorse_control/install
+[0.407s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 275 installed packages in /opt/ros/humble
+[0.408s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_bringup' build argument 'cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_bringup' build argument 'cmake_target' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.436s] DEBUG:colcon.colcon_core.verb:Building package 'darkhorse_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ram_charan/DH_ws/src/build/darkhorse_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ram_charan/DH_ws/src/install/darkhorse_bringup', 'merge_install': False, 'path': '/home/ram_charan/DH_ws/src/darkhorse_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_control' build argument 'cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_control' build argument 'cmake_target' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.437s] DEBUG:colcon.colcon_core.verb:Building package 'darkhorse_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ram_charan/DH_ws/src/build/darkhorse_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ram_charan/DH_ws/src/install/darkhorse_control', 'merge_install': False, 'path': '/home/ram_charan/DH_ws/src/darkhorse_control', 'symlink_install': False, 'test_result_base': None}
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_dbw' build argument 'cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_dbw' build argument 'cmake_target' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_dbw' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_dbw' build argument 'cmake_clean_cache' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_dbw' build argument 'cmake_clean_first' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_dbw' build argument 'cmake_force_configure' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_dbw' build argument 'ament_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_dbw' build argument 'catkin_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_dbw' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.437s] DEBUG:colcon.colcon_core.verb:Building package 'darkhorse_dbw' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ram_charan/DH_ws/src/build/darkhorse_dbw', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ram_charan/DH_ws/src/install/darkhorse_dbw', 'merge_install': False, 'path': '/home/ram_charan/DH_ws/src/darkhorse_dbw', 'symlink_install': False, 'test_result_base': None}
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_perception' build argument 'cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_perception' build argument 'cmake_target' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_perception' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_perception' build argument 'cmake_clean_cache' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_perception' build argument 'cmake_clean_first' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_perception' build argument 'cmake_force_configure' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_perception' build argument 'ament_cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_perception' build argument 'catkin_cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'darkhorse_perception' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.438s] DEBUG:colcon.colcon_core.verb:Building package 'darkhorse_perception' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ram_charan/DH_ws/src/build/darkhorse_perception', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ram_charan/DH_ws/src/install/darkhorse_perception', 'merge_install': False, 'path': '/home/ram_charan/DH_ws/src/darkhorse_perception', 'symlink_install': False, 'test_result_base': None}
+[0.438s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.439s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.439s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ram_charan/DH_ws/src/darkhorse_bringup' with build type 'ament_python'
+[0.439s] Level 1:colcon.colcon_core.shell:create_environment_hook('darkhorse_bringup', 'ament_prefix_path')
+[0.442s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.442s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram_charan/DH_ws/src/install/darkhorse_bringup/share/darkhorse_bringup/hook/ament_prefix_path.ps1'
+[0.444s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ram_charan/DH_ws/src/install/darkhorse_bringup/share/darkhorse_bringup/hook/ament_prefix_path.dsv'
+[0.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram_charan/DH_ws/src/install/darkhorse_bringup/share/darkhorse_bringup/hook/ament_prefix_path.sh'
+[0.445s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.445s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.448s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ram_charan/DH_ws/src/darkhorse_control' with build type 'ament_python'
+[0.448s] Level 1:colcon.colcon_core.shell:create_environment_hook('darkhorse_control', 'ament_prefix_path')
+[0.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram_charan/DH_ws/src/install/darkhorse_control/share/darkhorse_control/hook/ament_prefix_path.ps1'
+[0.449s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ram_charan/DH_ws/src/install/darkhorse_control/share/darkhorse_control/hook/ament_prefix_path.dsv'
+[0.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram_charan/DH_ws/src/install/darkhorse_control/share/darkhorse_control/hook/ament_prefix_path.sh'
+[0.450s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.450s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.455s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ram_charan/DH_ws/src/darkhorse_dbw' with build type 'ament_python'
+[0.455s] Level 1:colcon.colcon_core.shell:create_environment_hook('darkhorse_dbw', 'ament_prefix_path')
+[0.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram_charan/DH_ws/src/install/darkhorse_dbw/share/darkhorse_dbw/hook/ament_prefix_path.ps1'
+[0.457s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ram_charan/DH_ws/src/install/darkhorse_dbw/share/darkhorse_dbw/hook/ament_prefix_path.dsv'
+[0.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram_charan/DH_ws/src/install/darkhorse_dbw/share/darkhorse_dbw/hook/ament_prefix_path.sh'
+[0.458s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.458s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.461s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ram_charan/DH_ws/src/darkhorse_perception' with build type 'ament_python'
+[0.461s] Level 1:colcon.colcon_core.shell:create_environment_hook('darkhorse_perception', 'ament_prefix_path')
+[0.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram_charan/DH_ws/src/install/darkhorse_perception/share/darkhorse_perception/hook/ament_prefix_path.ps1'
+[0.462s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ram_charan/DH_ws/src/install/darkhorse_perception/share/darkhorse_perception/hook/ament_prefix_path.dsv'
+[0.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram_charan/DH_ws/src/install/darkhorse_perception/share/darkhorse_perception/hook/ament_prefix_path.sh'
+[0.463s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.463s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.682s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ram_charan/DH_ws/src/darkhorse_bringup'
+[0.682s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.682s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.893s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ram_charan/DH_ws/src/darkhorse_control'
+[0.893s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.893s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.102s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ram_charan/DH_ws/src/darkhorse_dbw'
+[1.102s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.103s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.310s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ram_charan/DH_ws/src/darkhorse_perception'
+[1.310s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.310s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.716s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ram_charan/DH_ws/src/darkhorse_perception': PYTHONPATH=/home/ram_charan/DH_ws/src/build/darkhorse_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram_charan/DH_ws/src/install/darkhorse_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/darkhorse_perception build --build-base /home/ram_charan/DH_ws/src/build/darkhorse_perception/build install --record /home/ram_charan/DH_ws/src/build/darkhorse_perception/install.log --single-version-externally-managed install_data
+[1.722s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ram_charan/DH_ws/src/darkhorse_control': PYTHONPATH=/home/ram_charan/DH_ws/src/build/darkhorse_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram_charan/DH_ws/src/install/darkhorse_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/darkhorse_control build --build-base /home/ram_charan/DH_ws/src/build/darkhorse_control/build install --record /home/ram_charan/DH_ws/src/build/darkhorse_control/install.log --single-version-externally-managed install_data
+[1.725s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ram_charan/DH_ws/src/darkhorse_bringup': PYTHONPATH=/home/ram_charan/DH_ws/src/build/darkhorse_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram_charan/DH_ws/src/install/darkhorse_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/darkhorse_bringup build --build-base /home/ram_charan/DH_ws/src/build/darkhorse_bringup/build install --record /home/ram_charan/DH_ws/src/build/darkhorse_bringup/install.log --single-version-externally-managed install_data
+[1.727s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ram_charan/DH_ws/src/darkhorse_dbw': PYTHONPATH=/home/ram_charan/DH_ws/src/build/darkhorse_dbw/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram_charan/DH_ws/src/install/darkhorse_dbw/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/darkhorse_dbw build --build-base /home/ram_charan/DH_ws/src/build/darkhorse_dbw/build install --record /home/ram_charan/DH_ws/src/build/darkhorse_dbw/install.log --single-version-externally-managed install_data
+[2.057s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ram_charan/DH_ws/src/darkhorse_perception' returned '0': PYTHONPATH=/home/ram_charan/DH_ws/src/build/darkhorse_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram_charan/DH_ws/src/install/darkhorse_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/darkhorse_perception build --build-base /home/ram_charan/DH_ws/src/build/darkhorse_perception/build install --record /home/ram_charan/DH_ws/src/build/darkhorse_perception/install.log --single-version-externally-managed install_data
+[2.062s] Level 1:colcon.colcon_core.environment:checking '/home/ram_charan/DH_ws/src/install/darkhorse_perception' for CMake module files
+[2.062s] Level 1:colcon.colcon_core.environment:checking '/home/ram_charan/DH_ws/src/install/darkhorse_perception' for CMake config files
+[2.063s] Level 1:colcon.colcon_core.environment:checking '/home/ram_charan/DH_ws/src/install/darkhorse_perception/lib'
+[2.063s] Level 1:colcon.colcon_core.environment:checking '/home/ram_charan/DH_ws/src/install/darkhorse_perception/bin'
+[2.063s] Level 1:colcon.colcon_core.environment:checking '/home/ram_charan/DH_ws/src/install/darkhorse_perception/lib/pkgconfig/darkhorse_perception.pc'
+[2.063s] Level 1:colcon.colcon_core.environment:checking '/home/ram_charan/DH_ws/src/install/darkhorse_perception/lib/python3.10/site-packages'
+[2.063s] Level 1:colcon.colcon_core.shell:create_environment_hook('darkhorse_perception', 'pythonpath')
+[2.064s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram_charan/DH_ws/src/install/darkhorse_perception/share/darkhorse_perception/hook/pythonpath.ps1'
+[2.064s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ram_charan/DH_ws/src/install/darkhorse_perception/share/darkhorse_perception/hook/pythonpath.dsv'
+[2.064s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram_charan/DH_ws/src/install/darkhorse_perception/share/darkhorse_perception/hook/pythonpath.sh'
+[2.065s] Level 1:colcon.colcon_core.environment:checking '/home/ram_charan/DH_ws/src/install/darkhorse_perception/bin'
+[2.065s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(darkhorse_perception)
+[2.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram_charan/DH_ws/src/install/darkhorse_perception/share/darkhorse_perception/package.ps1'
+[2.066s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ram_charan/DH_ws/src/install/darkhorse_perception/share/darkhorse_perception/package.dsv'
+[2.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram_charan/DH_ws/src/install/darkhorse_perception/share/darkhorse_perception/package.sh'
+[2.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram_charan/DH_ws/src/install/darkhorse_perception/share/darkhorse_perception/package.bash'
+[2.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram_charan/DH_ws/src/install/darkhorse_perception/share/darkhorse_perception/package.zsh'
+[2.070s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ram_charan/DH_ws/src/install/darkhorse_perception/share/colcon-core/packages/darkhorse_perception)
+[2.071s] Level 1:colcon.colcon_core.environment:checking '/home/ram_charan/DH_ws/src/install/darkhorse_control' for CMake module files
+[2.072s] Level 1:colcon.colcon_core.environment:checking '/home/ram_charan/DH_ws/src/install/darkhorse_control' for CMake config files
+[2.073s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ram_charan/DH_ws/src/darkhorse_control' returned '0': PYTHONPATH=/home/ram_charan/DH_ws/src/build/darkhorse_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram_charan/DH_ws/src/install/darkhorse_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/darkhorse_control build --build-base /home/ram_charan/DH_ws/src/build/darkhorse_control/build install --record /home/ram_charan/DH_ws/src/build/darkhorse_control/install.log --single-version-externally-managed install_data
+[2.073s] Level 1:colcon.colcon_core.environment:checking '/home/ram_charan/DH_ws/src/install/darkhorse_control/lib'
+[2.073s] Level 1:colcon.colcon_core.environment:checking '/home/ram_charan/DH_ws/src/install/darkhorse_control/bin'
+[2.073s] Level 1:colcon.colcon_core.environment:checking '/home/ram_charan/DH_ws/src/install/darkhorse_control/lib/pkgconfig/darkhorse_control.pc'
+[2.074s] Level 1:colcon.colcon_core.environment:checking '/home/ram_charan/DH_ws/src/install/darkhorse_control/lib/python3.10/site-packages'
+[2.074s] Level 1:colcon.colcon_core.shell:create_environment_hook('darkhorse_control', 'pythonpath')
+[2.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram_charan/DH_ws/src/install/darkhorse_control/share/darkhorse_control/hook/pythonpath.ps1'
+[2.074s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ram_charan/DH_ws/src/install/darkhorse_control/share/darkhorse_control/hook/pythonpath.dsv'
+[2.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram_charan/DH_ws/src/install/darkhorse_control/share/darkhorse_control/hook/pythonpath.sh'
+[2.075s] Level 1:colcon.colcon_core.environment:checking '/home/ram_charan/DH_ws/src/install/darkhorse_control/bin'
+[2.075s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(darkhorse_control)
+[2.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram_charan/DH_ws/src/install/darkhorse_control/share/darkhorse_control/package.ps1'
+[2.076s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ram_charan/DH_ws/src/install/darkhorse_control/share/darkhorse_control/package.dsv'
+[2.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram_charan/DH_ws/src/install/darkhorse_control/share/darkhorse_control/package.sh'
+[2.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram_charan/DH_ws/src/install/darkhorse_control/share/darkhorse_control/package.bash'
+[2.078s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram_charan/DH_ws/src/install/darkhorse_control/share/darkhorse_control/package.zsh'
+[2.078s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ram_charan/DH_ws/src/install/darkhorse_control/share/colcon-core/packages/darkhorse_control)
+[2.078s] Level 1:colcon.colcon_core.environment:checking '/home/ram_charan/DH_ws/src/install/darkhorse_bringup' for CMake module files
+[2.079s] Level 1:colcon.colcon_core.environment:checking '/home/ram_charan/DH_ws/src/install/darkhorse_bringup' for CMake config files
+[2.080s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ram_charan/DH_ws/src/darkhorse_bringup' returned '0': PYTHONPATH=/home/ram_charan/DH_ws/src/build/darkhorse_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram_charan/DH_ws/src/install/darkhorse_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/darkhorse_bringup build --build-base /home/ram_charan/DH_ws/src/build/darkhorse_bringup/build install --record /home/ram_charan/DH_ws/src/build/darkhorse_bringup/install.log --single-version-externally-managed install_data
+[2.080s] Level 1:colcon.colcon_core.environment:checking '/home/ram_charan/DH_ws/src/install/darkhorse_bringup/lib'
+[2.080s] Level 1:colcon.colcon_core.environment:checking '/home/ram_charan/DH_ws/src/install/darkhorse_bringup/bin'
+[2.080s] Level 1:colcon.colcon_core.environment:checking '/home/ram_charan/DH_ws/src/install/darkhorse_bringup/lib/pkgconfig/darkhorse_bringup.pc'
+[2.081s] Level 1:colcon.colcon_core.environment:checking '/home/ram_charan/DH_ws/src/install/darkhorse_bringup/lib/python3.10/site-packages'
+[2.081s] Level 1:colcon.colcon_core.shell:create_environment_hook('darkhorse_bringup', 'pythonpath')
+[2.081s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram_charan/DH_ws/src/install/darkhorse_bringup/share/darkhorse_bringup/hook/pythonpath.ps1'
+[2.081s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ram_charan/DH_ws/src/install/darkhorse_bringup/share/darkhorse_bringup/hook/pythonpath.dsv'
+[2.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram_charan/DH_ws/src/install/darkhorse_bringup/share/darkhorse_bringup/hook/pythonpath.sh'
+[2.083s] Level 1:colcon.colcon_core.environment:checking '/home/ram_charan/DH_ws/src/install/darkhorse_bringup/bin'
+[2.083s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(darkhorse_bringup)
+[2.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram_charan/DH_ws/src/install/darkhorse_bringup/share/darkhorse_bringup/package.ps1'
+[2.083s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ram_charan/DH_ws/src/install/darkhorse_bringup/share/darkhorse_bringup/package.dsv'
+[2.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram_charan/DH_ws/src/install/darkhorse_bringup/share/darkhorse_bringup/package.sh'
+[2.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram_charan/DH_ws/src/install/darkhorse_bringup/share/darkhorse_bringup/package.bash'
+[2.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram_charan/DH_ws/src/install/darkhorse_bringup/share/darkhorse_bringup/package.zsh'
+[2.084s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ram_charan/DH_ws/src/install/darkhorse_bringup/share/colcon-core/packages/darkhorse_bringup)
+[2.085s] Level 1:colcon.colcon_core.environment:checking '/home/ram_charan/DH_ws/src/install/darkhorse_dbw' for CMake module files
+[2.086s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ram_charan/DH_ws/src/darkhorse_dbw' returned '0': PYTHONPATH=/home/ram_charan/DH_ws/src/build/darkhorse_dbw/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram_charan/DH_ws/src/install/darkhorse_dbw/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/darkhorse_dbw build --build-base /home/ram_charan/DH_ws/src/build/darkhorse_dbw/build install --record /home/ram_charan/DH_ws/src/build/darkhorse_dbw/install.log --single-version-externally-managed install_data
+[2.086s] Level 1:colcon.colcon_core.environment:checking '/home/ram_charan/DH_ws/src/install/darkhorse_dbw' for CMake config files
+[2.086s] Level 1:colcon.colcon_core.environment:checking '/home/ram_charan/DH_ws/src/install/darkhorse_dbw/lib'
+[2.086s] Level 1:colcon.colcon_core.environment:checking '/home/ram_charan/DH_ws/src/install/darkhorse_dbw/bin'
+[2.086s] Level 1:colcon.colcon_core.environment:checking '/home/ram_charan/DH_ws/src/install/darkhorse_dbw/lib/pkgconfig/darkhorse_dbw.pc'
+[2.087s] Level 1:colcon.colcon_core.environment:checking '/home/ram_charan/DH_ws/src/install/darkhorse_dbw/lib/python3.10/site-packages'
+[2.087s] Level 1:colcon.colcon_core.shell:create_environment_hook('darkhorse_dbw', 'pythonpath')
+[2.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram_charan/DH_ws/src/install/darkhorse_dbw/share/darkhorse_dbw/hook/pythonpath.ps1'
+[2.087s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ram_charan/DH_ws/src/install/darkhorse_dbw/share/darkhorse_dbw/hook/pythonpath.dsv'
+[2.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram_charan/DH_ws/src/install/darkhorse_dbw/share/darkhorse_dbw/hook/pythonpath.sh'
+[2.088s] Level 1:colcon.colcon_core.environment:checking '/home/ram_charan/DH_ws/src/install/darkhorse_dbw/bin'
+[2.088s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(darkhorse_dbw)
+[2.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram_charan/DH_ws/src/install/darkhorse_dbw/share/darkhorse_dbw/package.ps1'
+[2.088s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ram_charan/DH_ws/src/install/darkhorse_dbw/share/darkhorse_dbw/package.dsv'
+[2.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram_charan/DH_ws/src/install/darkhorse_dbw/share/darkhorse_dbw/package.sh'
+[2.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram_charan/DH_ws/src/install/darkhorse_dbw/share/darkhorse_dbw/package.bash'
+[2.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram_charan/DH_ws/src/install/darkhorse_dbw/share/darkhorse_dbw/package.zsh'
+[2.090s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ram_charan/DH_ws/src/install/darkhorse_dbw/share/colcon-core/packages/darkhorse_dbw)
+[2.090s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.090s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.090s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.090s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.096s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.096s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.096s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.121s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.121s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ram_charan/DH_ws/src/install/local_setup.ps1'
+[2.123s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ram_charan/DH_ws/src/install/_local_setup_util_ps1.py'
+[2.126s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ram_charan/DH_ws/src/install/setup.ps1'
+[2.129s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ram_charan/DH_ws/src/install/local_setup.sh'
+[2.130s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ram_charan/DH_ws/src/install/_local_setup_util_sh.py'
+[2.131s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ram_charan/DH_ws/src/install/setup.sh'
+[2.133s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ram_charan/DH_ws/src/install/local_setup.bash'
+[2.134s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ram_charan/DH_ws/src/install/setup.bash'
+[2.137s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ram_charan/DH_ws/src/install/local_setup.zsh'
+[2.138s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ram_charan/DH_ws/src/install/setup.zsh'

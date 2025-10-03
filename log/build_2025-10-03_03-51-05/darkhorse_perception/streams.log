@@ -1,0 +1,23 @@
+[1.772s] Invoking command in '/home/ram_charan/DH_ws/src/darkhorse_perception': PYTHONPATH=/home/ram_charan/DH_ws/build/darkhorse_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram_charan/DH_ws/install/darkhorse_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/darkhorse_perception build --build-base /home/ram_charan/DH_ws/build/darkhorse_perception/build install --record /home/ram_charan/DH_ws/build/darkhorse_perception/install.log --single-version-externally-managed install_data
+[2.110s] running egg_info
+[2.111s] writing ../../build/darkhorse_perception/darkhorse_perception.egg-info/PKG-INFO
+[2.111s] writing dependency_links to ../../build/darkhorse_perception/darkhorse_perception.egg-info/dependency_links.txt
+[2.111s] writing entry points to ../../build/darkhorse_perception/darkhorse_perception.egg-info/entry_points.txt
+[2.112s] writing requirements to ../../build/darkhorse_perception/darkhorse_perception.egg-info/requires.txt
+[2.112s] writing top-level names to ../../build/darkhorse_perception/darkhorse_perception.egg-info/top_level.txt
+[2.115s] reading manifest file '../../build/darkhorse_perception/darkhorse_perception.egg-info/SOURCES.txt'
+[2.117s] writing manifest file '../../build/darkhorse_perception/darkhorse_perception.egg-info/SOURCES.txt'
+[2.117s] running build
+[2.117s] running build_py
+[2.118s] running install
+[2.119s] running install_lib
+[2.120s] running install_data
+[2.120s] running install_egg_info
+[2.124s] removing '/home/ram_charan/DH_ws/install/darkhorse_perception/lib/python3.10/site-packages/darkhorse_perception-0.0.1-py3.10.egg-info' (and everything under it)
+[2.124s] Copying ../../build/darkhorse_perception/darkhorse_perception.egg-info to /home/ram_charan/DH_ws/install/darkhorse_perception/lib/python3.10/site-packages/darkhorse_perception-0.0.1-py3.10.egg-info
+[2.125s] running install_scripts
+[2.155s] Installing camera_node script to /home/ram_charan/DH_ws/install/darkhorse_perception/lib/darkhorse_perception
+[2.155s] Installing radar_rx_node script to /home/ram_charan/DH_ws/install/darkhorse_perception/lib/darkhorse_perception
+[2.155s] Installing radar_visualizer script to /home/ram_charan/DH_ws/install/darkhorse_perception/lib/darkhorse_perception
+[2.156s] writing list of installed files to '/home/ram_charan/DH_ws/build/darkhorse_perception/install.log'
+[2.205s] Invoked command in '/home/ram_charan/DH_ws/src/darkhorse_perception' returned '0': PYTHONPATH=/home/ram_charan/DH_ws/build/darkhorse_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram_charan/DH_ws/install/darkhorse_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/darkhorse_perception build --build-base /home/ram_charan/DH_ws/build/darkhorse_perception/build install --record /home/ram_charan/DH_ws/build/darkhorse_perception/install.log --single-version-externally-managed install_data

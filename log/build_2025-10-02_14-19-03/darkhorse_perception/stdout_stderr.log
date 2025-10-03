@@ -1,0 +1,39 @@
+running develop
+running egg_info
+creating darkhorse_perception.egg-info
+writing darkhorse_perception.egg-info/PKG-INFO
+writing dependency_links to darkhorse_perception.egg-info/dependency_links.txt
+writing entry points to darkhorse_perception.egg-info/entry_points.txt
+writing requirements to darkhorse_perception.egg-info/requires.txt
+writing top-level names to darkhorse_perception.egg-info/top_level.txt
+writing manifest file 'darkhorse_perception.egg-info/SOURCES.txt'
+reading manifest file 'darkhorse_perception.egg-info/SOURCES.txt'
+writing manifest file 'darkhorse_perception.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ram_charan/DH_ws/install/darkhorse_perception/lib/python3.10/site-packages/darkhorse-perception.egg-link (link to .)
+Installing camera_node script to /home/ram_charan/DH_ws/install/darkhorse_perception/lib/darkhorse_perception
+Installing radar_rx_node script to /home/ram_charan/DH_ws/install/darkhorse_perception/lib/darkhorse_perception
+Installing radar_visualizer script to /home/ram_charan/DH_ws/install/darkhorse_perception/lib/darkhorse_perception
+
+Installed /home/ram_charan/DH_ws/build/darkhorse_perception
+running symlink_data
+creating /home/ram_charan/DH_ws/install/darkhorse_perception/share/ament_index
+creating /home/ram_charan/DH_ws/install/darkhorse_perception/share/ament_index/resource_index
+creating /home/ram_charan/DH_ws/install/darkhorse_perception/share/ament_index/resource_index/packages
+symbolically linking /home/ram_charan/DH_ws/build/darkhorse_perception/resource/darkhorse_perception -> /home/ram_charan/DH_ws/install/darkhorse_perception/share/ament_index/resource_index/packages
+symbolically linking /home/ram_charan/DH_ws/build/darkhorse_perception/package.xml -> /home/ram_charan/DH_ws/install/darkhorse_perception/share/darkhorse_perception
+creating /home/ram_charan/DH_ws/install/darkhorse_perception/share/darkhorse_perception/launch
+symbolically linking /home/ram_charan/DH_ws/build/darkhorse_perception/launch/radar_min.launch.py -> /home/ram_charan/DH_ws/install/darkhorse_perception/share/darkhorse_perception/launch
+symbolically linking /home/ram_charan/DH_ws/build/darkhorse_perception/launch/camera_perception.launch.py -> /home/ram_charan/DH_ws/install/darkhorse_perception/share/darkhorse_perception/launch
+symbolically linking /home/ram_charan/DH_ws/build/darkhorse_perception/launch/radar_viz.launch.py -> /home/ram_charan/DH_ws/install/darkhorse_perception/share/darkhorse_perception/launch
+creating /home/ram_charan/DH_ws/install/darkhorse_perception/share/darkhorse_perception/config
+symbolically linking /home/ram_charan/DH_ws/build/darkhorse_perception/config/radar.yaml -> /home/ram_charan/DH_ws/install/darkhorse_perception/share/darkhorse_perception/config
+symbolically linking /home/ram_charan/DH_ws/build/darkhorse_perception/config/camera_params.yaml -> /home/ram_charan/DH_ws/install/darkhorse_perception/share/darkhorse_perception/config
+creating /home/ram_charan/DH_ws/install/darkhorse_perception/share/darkhorse_perception/rviz
+symbolically linking /home/ram_charan/DH_ws/build/darkhorse_perception/rviz/radar.rviz -> /home/ram_charan/DH_ws/install/darkhorse_perception/share/darkhorse_perception/rviz
+creating /home/ram_charan/DH_ws/install/darkhorse_perception/share/darkhorse_perception/models
+symbolically linking /home/ram_charan/DH_ws/build/darkhorse_perception/models/ts_yolov8n.onnx -> /home/ram_charan/DH_ws/install/darkhorse_perception/share/darkhorse_perception/models
+symbolically linking /home/ram_charan/DH_ws/build/darkhorse_perception/models/tl_yolov8n.onnx -> /home/ram_charan/DH_ws/install/darkhorse_perception/share/darkhorse_perception/models
+symbolically linking /home/ram_charan/DH_ws/build/darkhorse_perception/models/my_traffic_model.pt -> /home/ram_charan/DH_ws/install/darkhorse_perception/share/darkhorse_perception/models
+symbolically linking /home/ram_charan/DH_ws/build/darkhorse_perception/models/yolov8n.pt -> /home/ram_charan/DH_ws/install/darkhorse_perception/share/darkhorse_perception/models
+symbolically linking /home/ram_charan/DH_ws/build/darkhorse_perception/models/sign_labels.txt -> /home/ram_charan/DH_ws/install/darkhorse_perception/share/darkhorse_perception/models

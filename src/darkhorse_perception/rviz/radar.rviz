@@ -1,0 +1,45 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+  - Class: rviz_common/Selection
+    Name: Selection
+  - Class: rviz_common/Views
+    Name: Views
+
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Name: Grid
+      Class: rviz_default_plugins/Grid
+      Enabled: true
+      Cell Size: 1
+      Plane: XY
+      Normal Cell Count: 0
+      Color: 160;160;160
+
+    - Name: Radar Points
+      Class: rviz_default_plugins/PointCloud
+      Enabled: true
+      Topic: /radar/points
+      Size (m): 0.25
+      Color Transformer: FlatColor
+      Color: 0;255;0
+      Alpha: 1.0
+
+    - Name: Radar Markers
+      Class: rviz_default_plugins/MarkerArray
+      Enabled: true
+      Topic: /radar/markers
+      Queue Size: 10
+
+  Global Options:
+    Background Color: 48;48;48
+    Fixed Frame: world
+
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 50
+      Focal Point: [0, 0, 0]
+      Pitch: 0.785
+      Yaw: 0.785

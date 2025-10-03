@@ -1,0 +1,4 @@
+[console_scripts]
+hal_node = darkhorse_dbw.hal_node:main
+speed_node = darkhorse_dbw.nodes.speed_node:main
+

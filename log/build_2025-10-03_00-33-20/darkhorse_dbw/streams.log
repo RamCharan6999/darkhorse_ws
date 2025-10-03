@@ -1,0 +1,18 @@
+[1.306s] Invoking command in '/home/ram_charan/DH_ws/build/darkhorse_dbw': PYTHONPATH=/home/ram_charan/DH_ws/build/darkhorse_dbw/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram_charan/DH_ws/install/darkhorse_dbw/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ram_charan/DH_ws/build/darkhorse_dbw/build --no-deps symlink_data
+[1.634s] running develop
+[1.833s] running egg_info
+[1.834s] writing darkhorse_dbw.egg-info/PKG-INFO
+[1.834s] writing dependency_links to darkhorse_dbw.egg-info/dependency_links.txt
+[1.835s] writing entry points to darkhorse_dbw.egg-info/entry_points.txt
+[1.835s] writing requirements to darkhorse_dbw.egg-info/requires.txt
+[1.835s] writing top-level names to darkhorse_dbw.egg-info/top_level.txt
+[1.837s] reading manifest file 'darkhorse_dbw.egg-info/SOURCES.txt'
+[1.838s] writing manifest file 'darkhorse_dbw.egg-info/SOURCES.txt'
+[1.840s] running build_ext
+[1.840s] Creating /home/ram_charan/DH_ws/install/darkhorse_dbw/lib/python3.10/site-packages/darkhorse-dbw.egg-link (link to .)
+[1.843s] Installing hal_node script to /home/ram_charan/DH_ws/install/darkhorse_dbw/lib/darkhorse_dbw
+[1.843s] Installing speed_node script to /home/ram_charan/DH_ws/install/darkhorse_dbw/lib/darkhorse_dbw
+[1.843s] 
+[1.843s] Installed /home/ram_charan/DH_ws/build/darkhorse_dbw
+[1.843s] running symlink_data
+[1.884s] Invoked command in '/home/ram_charan/DH_ws/build/darkhorse_dbw' returned '0': PYTHONPATH=/home/ram_charan/DH_ws/build/darkhorse_dbw/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram_charan/DH_ws/install/darkhorse_dbw/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ram_charan/DH_ws/build/darkhorse_dbw/build --no-deps symlink_data

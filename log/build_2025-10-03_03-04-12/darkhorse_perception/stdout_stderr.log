@@ -1,0 +1,46 @@
+running develop
+Removing /home/ram_charan/DH_ws/install/darkhorse_perception/lib/python3.10/site-packages/darkhorse-perception.egg-link (link to .)
+running egg_info
+writing ../../build/darkhorse_perception/darkhorse_perception.egg-info/PKG-INFO
+writing dependency_links to ../../build/darkhorse_perception/darkhorse_perception.egg-info/dependency_links.txt
+writing entry points to ../../build/darkhorse_perception/darkhorse_perception.egg-info/entry_points.txt
+writing requirements to ../../build/darkhorse_perception/darkhorse_perception.egg-info/requires.txt
+writing top-level names to ../../build/darkhorse_perception/darkhorse_perception.egg-info/top_level.txt
+reading manifest file '../../build/darkhorse_perception/darkhorse_perception.egg-info/SOURCES.txt'
+writing manifest file '../../build/darkhorse_perception/darkhorse_perception.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/ram_charan/DH_ws/install/darkhorse_perception/lib/python3.10/site-packages/darkhorse_perception
+copying /home/ram_charan/DH_ws/build/darkhorse_perception/build/lib/darkhorse_perception/radar_rx_node.py -> /home/ram_charan/DH_ws/install/darkhorse_perception/lib/python3.10/site-packages/darkhorse_perception
+copying /home/ram_charan/DH_ws/build/darkhorse_perception/build/lib/darkhorse_perception/radar_visualizer.py -> /home/ram_charan/DH_ws/install/darkhorse_perception/lib/python3.10/site-packages/darkhorse_perception
+copying /home/ram_charan/DH_ws/build/darkhorse_perception/build/lib/darkhorse_perception/camera_node.py -> /home/ram_charan/DH_ws/install/darkhorse_perception/lib/python3.10/site-packages/darkhorse_perception
+copying /home/ram_charan/DH_ws/build/darkhorse_perception/build/lib/darkhorse_perception/__init__.py -> /home/ram_charan/DH_ws/install/darkhorse_perception/lib/python3.10/site-packages/darkhorse_perception
+copying /home/ram_charan/DH_ws/build/darkhorse_perception/build/lib/darkhorse_perception/camera_perception_node.py -> /home/ram_charan/DH_ws/install/darkhorse_perception/lib/python3.10/site-packages/darkhorse_perception
+byte-compiling /home/ram_charan/DH_ws/install/darkhorse_perception/lib/python3.10/site-packages/darkhorse_perception/radar_rx_node.py to radar_rx_node.cpython-310.pyc
+byte-compiling /home/ram_charan/DH_ws/install/darkhorse_perception/lib/python3.10/site-packages/darkhorse_perception/radar_visualizer.py to radar_visualizer.cpython-310.pyc
+byte-compiling /home/ram_charan/DH_ws/install/darkhorse_perception/lib/python3.10/site-packages/darkhorse_perception/camera_node.py to camera_node.cpython-310.pyc
+byte-compiling /home/ram_charan/DH_ws/install/darkhorse_perception/lib/python3.10/site-packages/darkhorse_perception/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ram_charan/DH_ws/install/darkhorse_perception/lib/python3.10/site-packages/darkhorse_perception/camera_perception_node.py to camera_perception_node.cpython-310.pyc
+running install_data
+copying resource/darkhorse_perception -> /home/ram_charan/DH_ws/install/darkhorse_perception/share/ament_index/resource_index/packages
+copying package.xml -> /home/ram_charan/DH_ws/install/darkhorse_perception/share/darkhorse_perception
+copying launch/radar_min.launch.py -> /home/ram_charan/DH_ws/install/darkhorse_perception/share/darkhorse_perception/launch
+copying launch/camera_perception.launch.py -> /home/ram_charan/DH_ws/install/darkhorse_perception/share/darkhorse_perception/launch
+copying launch/radar_viz.launch.py -> /home/ram_charan/DH_ws/install/darkhorse_perception/share/darkhorse_perception/launch
+copying config/radar.yaml -> /home/ram_charan/DH_ws/install/darkhorse_perception/share/darkhorse_perception/config
+copying config/camera_params.yaml -> /home/ram_charan/DH_ws/install/darkhorse_perception/share/darkhorse_perception/config
+copying rviz/radar.rviz -> /home/ram_charan/DH_ws/install/darkhorse_perception/share/darkhorse_perception/rviz
+copying models/ts_yolov8n.onnx -> /home/ram_charan/DH_ws/install/darkhorse_perception/share/darkhorse_perception/models
+copying models/tl_yolov8n.onnx -> /home/ram_charan/DH_ws/install/darkhorse_perception/share/darkhorse_perception/models
+copying models/my_traffic_model.pt -> /home/ram_charan/DH_ws/install/darkhorse_perception/share/darkhorse_perception/models
+copying models/yolov8n.pt -> /home/ram_charan/DH_ws/install/darkhorse_perception/share/darkhorse_perception/models
+copying models/sign_labels.txt -> /home/ram_charan/DH_ws/install/darkhorse_perception/share/darkhorse_perception/models
+running install_egg_info
+Copying ../../build/darkhorse_perception/darkhorse_perception.egg-info to /home/ram_charan/DH_ws/install/darkhorse_perception/lib/python3.10/site-packages/darkhorse_perception-0.0.1-py3.10.egg-info
+running install_scripts
+Installing camera_node script to /home/ram_charan/DH_ws/install/darkhorse_perception/lib/darkhorse_perception
+Installing radar_rx_node script to /home/ram_charan/DH_ws/install/darkhorse_perception/lib/darkhorse_perception
+Installing radar_visualizer script to /home/ram_charan/DH_ws/install/darkhorse_perception/lib/darkhorse_perception
+writing list of installed files to '/home/ram_charan/DH_ws/build/darkhorse_perception/install.log'

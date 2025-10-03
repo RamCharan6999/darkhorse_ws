@@ -1,0 +1,11 @@
+darkhorse_perception:
+  ros__parameters:
+    can_interface: can0
+    dbc_path: /home/ram_charan/DH_ws/install/darkhorse_dbw/share/darkhorse_dbw/config/Starkenn_Orion_Radar_x_aBAJA.dbc
+    poll_hz: 25.0
+    frame_id: base_link
+    track_ttl_sec: 0.35
+    lat_fov_m: 8.0
+    min_range_m: 0.3
+    max_range_m: 200.0
+    vx_ema: 0.30

@@ -1,0 +1,16 @@
+[0.915s] Invoking command in '/home/ram_charan/DH_ws/build/darkhorse_bringup': PYTHONPATH=/home/ram_charan/DH_ws/build/darkhorse_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram_charan/DH_ws/install/darkhorse_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ram_charan/DH_ws/build/darkhorse_bringup/build --no-deps symlink_data
+[1.114s] running develop
+[1.240s] running egg_info
+[1.240s] writing darkhorse_bringup.egg-info/PKG-INFO
+[1.240s] writing dependency_links to darkhorse_bringup.egg-info/dependency_links.txt
+[1.240s] writing entry points to darkhorse_bringup.egg-info/entry_points.txt
+[1.240s] writing requirements to darkhorse_bringup.egg-info/requires.txt
+[1.240s] writing top-level names to darkhorse_bringup.egg-info/top_level.txt
+[1.242s] reading manifest file 'darkhorse_bringup.egg-info/SOURCES.txt'
+[1.242s] writing manifest file 'darkhorse_bringup.egg-info/SOURCES.txt'
+[1.244s] running build_ext
+[1.244s] Creating /home/ram_charan/DH_ws/install/darkhorse_bringup/lib/python3.10/site-packages/darkhorse-bringup.egg-link (link to .)
+[1.244s] 
+[1.245s] Installed /home/ram_charan/DH_ws/build/darkhorse_bringup
+[1.245s] running symlink_data
+[1.278s] Invoked command in '/home/ram_charan/DH_ws/build/darkhorse_bringup' returned '0': PYTHONPATH=/home/ram_charan/DH_ws/build/darkhorse_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram_charan/DH_ws/install/darkhorse_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ram_charan/DH_ws/build/darkhorse_bringup/build --no-deps symlink_data

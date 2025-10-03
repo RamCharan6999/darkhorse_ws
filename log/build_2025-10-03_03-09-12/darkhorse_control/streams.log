@@ -1,0 +1,30 @@
+[1.320s] Invoking command in '/home/ram_charan/DH_ws/src/darkhorse_control': PYTHONPATH=/home/ram_charan/DH_ws/build/darkhorse_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram_charan/DH_ws/install/darkhorse_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/darkhorse_control build --build-base /home/ram_charan/DH_ws/build/darkhorse_control/build install --record /home/ram_charan/DH_ws/build/darkhorse_control/install.log --single-version-externally-managed install_data
+[1.607s] running egg_info
+[1.609s] writing ../../build/darkhorse_control/darkhorse_control.egg-info/PKG-INFO
+[1.609s] writing dependency_links to ../../build/darkhorse_control/darkhorse_control.egg-info/dependency_links.txt
+[1.609s] writing entry points to ../../build/darkhorse_control/darkhorse_control.egg-info/entry_points.txt
+[1.609s] writing requirements to ../../build/darkhorse_control/darkhorse_control.egg-info/requires.txt
+[1.609s] writing top-level names to ../../build/darkhorse_control/darkhorse_control.egg-info/top_level.txt
+[1.611s] reading manifest file '../../build/darkhorse_control/darkhorse_control.egg-info/SOURCES.txt'
+[1.612s] writing manifest file '../../build/darkhorse_control/darkhorse_control.egg-info/SOURCES.txt'
+[1.612s] running build
+[1.612s] running build_py
+[1.613s] copying darkhorse_control/lka_node.py -> /home/ram_charan/DH_ws/build/darkhorse_control/build/lib/darkhorse_control
+[1.613s] running install
+[1.613s] running install_lib
+[1.614s] copying /home/ram_charan/DH_ws/build/darkhorse_control/build/lib/darkhorse_control/lka_node.py -> /home/ram_charan/DH_ws/install/darkhorse_control/lib/python3.10/site-packages/darkhorse_control
+[1.615s] byte-compiling /home/ram_charan/DH_ws/install/darkhorse_control/lib/python3.10/site-packages/darkhorse_control/lka_node.py to lka_node.cpython-310.pyc
+[1.618s] running install_data
+[1.618s] running install_egg_info
+[1.620s] removing '/home/ram_charan/DH_ws/install/darkhorse_control/lib/python3.10/site-packages/darkhorse_control-0.0.0-py3.10.egg-info' (and everything under it)
+[1.620s] Copying ../../build/darkhorse_control/darkhorse_control.egg-info to /home/ram_charan/DH_ws/install/darkhorse_control/lib/python3.10/site-packages/darkhorse_control-0.0.0-py3.10.egg-info
+[1.621s] running install_scripts
+[1.648s] Installing acc_node script to /home/ram_charan/DH_ws/install/darkhorse_control/lib/darkhorse_control
+[1.648s] Installing aeb_controller script to /home/ram_charan/DH_ws/install/darkhorse_control/lib/darkhorse_control
+[1.649s] Installing aeb_node script to /home/ram_charan/DH_ws/install/darkhorse_control/lib/darkhorse_control
+[1.649s] Installing fake_speed_publisher script to /home/ram_charan/DH_ws/install/darkhorse_control/lib/darkhorse_control
+[1.649s] Installing joy_bridge script to /home/ram_charan/DH_ws/install/darkhorse_control/lib/darkhorse_control
+[1.649s] Installing lka_node script to /home/ram_charan/DH_ws/install/darkhorse_control/lib/darkhorse_control
+[1.649s] Installing mission_control_node script to /home/ram_charan/DH_ws/install/darkhorse_control/lib/darkhorse_control
+[1.649s] writing list of installed files to '/home/ram_charan/DH_ws/build/darkhorse_control/install.log'
+[1.696s] Invoked command in '/home/ram_charan/DH_ws/src/darkhorse_control' returned '0': PYTHONPATH=/home/ram_charan/DH_ws/build/darkhorse_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram_charan/DH_ws/install/darkhorse_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/darkhorse_control build --build-base /home/ram_charan/DH_ws/build/darkhorse_control/build install --record /home/ram_charan/DH_ws/build/darkhorse_control/install.log --single-version-externally-managed install_data

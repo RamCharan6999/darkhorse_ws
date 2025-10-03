@@ -1,0 +1,13 @@
+camera_node:
+  ros__parameters:
+    use_gpu: false              # switch to true on Jetson for CUDA
+    lane_detection: true
+    traffic_sign_detection: true
+    traffic_light_detection: true
+
+    # Installed model names (resolved in code using get_package_share_directory)
+    traffic_light_model: "tl_yolov8n.onnx"
+    traffic_sign_model: "ts_yolov8n.onnx"
+    yolov8_model: "yolov8n.pt"
+    sign_labels: "sign_labels.txt"
+

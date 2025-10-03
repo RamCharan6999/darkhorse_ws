@@ -1,0 +1,6 @@
+source;share/darkhorse_dbw/hook/pythonpath.ps1
+source;share/darkhorse_dbw/hook/pythonpath.dsv
+source;share/darkhorse_dbw/hook/pythonpath.sh
+source;share/darkhorse_dbw/hook/ament_prefix_path.ps1
+source;share/darkhorse_dbw/hook/ament_prefix_path.dsv
+source;share/darkhorse_dbw/hook/ament_prefix_path.sh

@@ -1,0 +1,34 @@
+running egg_info
+creating build/darkhorse_bringup/darkhorse_bringup.egg-info
+writing build/darkhorse_bringup/darkhorse_bringup.egg-info/PKG-INFO
+writing dependency_links to build/darkhorse_bringup/darkhorse_bringup.egg-info/dependency_links.txt
+writing entry points to build/darkhorse_bringup/darkhorse_bringup.egg-info/entry_points.txt
+writing requirements to build/darkhorse_bringup/darkhorse_bringup.egg-info/requires.txt
+writing top-level names to build/darkhorse_bringup/darkhorse_bringup.egg-info/top_level.txt
+writing manifest file 'build/darkhorse_bringup/darkhorse_bringup.egg-info/SOURCES.txt'
+reading manifest file 'build/darkhorse_bringup/darkhorse_bringup.egg-info/SOURCES.txt'
+writing manifest file 'build/darkhorse_bringup/darkhorse_bringup.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/darkhorse/DH_ws/src/darkhorse_bringup/build/darkhorse_bringup/build
+creating /home/darkhorse/DH_ws/src/darkhorse_bringup/build/darkhorse_bringup/build/lib
+creating /home/darkhorse/DH_ws/src/darkhorse_bringup/build/darkhorse_bringup/build/lib/darkhorse_bringup
+copying darkhorse_bringup/__init__.py -> /home/darkhorse/DH_ws/src/darkhorse_bringup/build/darkhorse_bringup/build/lib/darkhorse_bringup
+running install
+running install_lib
+creating /home/darkhorse/DH_ws/src/darkhorse_bringup/install/darkhorse_bringup/lib/python3.10/site-packages/darkhorse_bringup
+copying /home/darkhorse/DH_ws/src/darkhorse_bringup/build/darkhorse_bringup/build/lib/darkhorse_bringup/__init__.py -> /home/darkhorse/DH_ws/src/darkhorse_bringup/install/darkhorse_bringup/lib/python3.10/site-packages/darkhorse_bringup
+byte-compiling /home/darkhorse/DH_ws/src/darkhorse_bringup/install/darkhorse_bringup/lib/python3.10/site-packages/darkhorse_bringup/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/darkhorse/DH_ws/src/darkhorse_bringup/install/darkhorse_bringup/share/ament_index
+creating /home/darkhorse/DH_ws/src/darkhorse_bringup/install/darkhorse_bringup/share/ament_index/resource_index
+creating /home/darkhorse/DH_ws/src/darkhorse_bringup/install/darkhorse_bringup/share/ament_index/resource_index/packages
+copying resource/darkhorse_bringup -> /home/darkhorse/DH_ws/src/darkhorse_bringup/install/darkhorse_bringup/share/ament_index/resource_index/packages
+copying package.xml -> /home/darkhorse/DH_ws/src/darkhorse_bringup/install/darkhorse_bringup/share/darkhorse_bringup
+creating /home/darkhorse/DH_ws/src/darkhorse_bringup/install/darkhorse_bringup/share/darkhorse_bringup/launch
+copying launch/manual_testing.launch.py -> /home/darkhorse/DH_ws/src/darkhorse_bringup/install/darkhorse_bringup/share/darkhorse_bringup/launch
+copying launch/radar_test.launch.py -> /home/darkhorse/DH_ws/src/darkhorse_bringup/install/darkhorse_bringup/share/darkhorse_bringup/launch
+running install_egg_info
+Copying build/darkhorse_bringup/darkhorse_bringup.egg-info to /home/darkhorse/DH_ws/src/darkhorse_bringup/install/darkhorse_bringup/lib/python3.10/site-packages/darkhorse_bringup-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/darkhorse/DH_ws/src/darkhorse_bringup/build/darkhorse_bringup/install.log'

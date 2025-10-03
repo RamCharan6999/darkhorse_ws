@@ -1,0 +1,11 @@
+teleop_twist_joy_node:
+  ros__parameters:
+    require_enable_button: false
+    
+    # IMPORTANT: You may need to change these numbers
+    # after checking 'ros2 topic echo /joy'
+    axis_linear:
+      x: 1  # Default for left stick up/down
+    
+    axis_angular:
+      yaw: 2 # Default for right stick left/right

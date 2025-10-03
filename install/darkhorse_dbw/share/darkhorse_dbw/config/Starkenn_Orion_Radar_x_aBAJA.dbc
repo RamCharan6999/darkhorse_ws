@@ -1,0 +1,297 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: ECU Starkenn_Radar
+
+
+BO_ 1305 Dynamic_Object_10: 8 Starkenn_Radar
+ SG_ Speed_y_dynamic_10 : 36|11@1+ (0.1,-102.4) [-102.4|102.3] "Meter Per Second" Vector__XXX
+ SG_ Speed_x_dynamic_10 : 25|11@1+ (0.1,-102.4) [-102.4|102.3] "Meter Per Second" Vector__XXX
+ SG_ y_distance_dynamic_10 : 13|12@1+ (0.064,-131.072) [-131.072|131.008] "Meter" Vector__XXX
+ SG_ x_distance_dynamic_10 : 0|13@1+ (0.032,-60.8) [-60.8|201.312] "Meter" Vector__XXX
+
+BO_ 1304 Dynamic_Object_9: 8 Starkenn_Radar
+ SG_ Speed_y_dynamic_9 : 36|11@1+ (0.1,-102.4) [-102.4|102.3] "Meter Per Second" Vector__XXX
+ SG_ Speed_x_dynamic_9 : 25|11@1+ (0.1,-102.4) [-102.4|102.3] "Meter Per Second" Vector__XXX
+ SG_ y_distance_dynamic_9 : 13|12@1+ (0.064,-131.072) [-131.072|131.008] "Meter" Vector__XXX
+ SG_ x_distance_dynamic_9 : 0|13@1+ (0.032,-60.8) [-60.8|201.312] "Meter" Vector__XXX
+
+BO_ 1303 Dynamic_Object_8: 8 Starkenn_Radar
+ SG_ Speed_y_dynamic_8 : 36|11@1+ (0.1,-102.4) [-102.4|102.3] "Meter Per Second" Vector__XXX
+ SG_ Speed_x_dynamic_8 : 25|11@1+ (0.1,-102.4) [-102.4|102.3] "Meter Per Second" Vector__XXX
+ SG_ y_distance_dynamic_8 : 13|12@1+ (0.064,-131.072) [-131.072|131.008] "Meter" Vector__XXX
+ SG_ x_distance_dynamic_8 : 0|13@1+ (0.032,-60.8) [-60.8|201.312] "Meter" Vector__XXX
+
+BO_ 1302 Dynamic_Object_7: 8 Starkenn_Radar
+ SG_ Speed_y_dynamic_7 : 36|11@1+ (0.1,-102.4) [-102.4|102.3] "Meter Per Second" Vector__XXX
+ SG_ Speed_x_dynamic_7 : 25|11@1+ (0.1,-102.4) [-102.4|102.3] "Meter Per Second" Vector__XXX
+ SG_ y_distance_dynamic_7 : 13|12@1+ (0.064,-131.072) [-131.072|131.008] "Meter" Vector__XXX
+ SG_ x_distance_dynamic_7 : 0|13@1+ (0.032,-60.8) [-60.8|201.312] "Meter" Vector__XXX
+
+BO_ 1433 Static_Object_10: 8 Starkenn_Radar
+ SG_ Speed_y_static_10 : 36|11@1+ (0.1,-102.4) [-102.4|102.3] "Meter Per Second" Vector__XXX
+ SG_ Speed_x_static_10 : 25|11@1+ (0.1,-102.4) [-102.4|102.3] "Meter Per Second" Vector__XXX
+ SG_ y_distance_static_10 : 13|12@1+ (0.064,-131.072) [-131.072|131.008] "Meter" Vector__XXX
+ SG_ x_distance_static_10 : 0|13@1+ (0.032,-60.8) [-60.8|201.31] "Meter" Vector__XXX
+
+BO_ 1432 Static_Object_9: 8 Starkenn_Radar
+ SG_ Speed_y_static_9 : 36|11@1+ (0.1,-102.4) [-102.4|102.3] "Meter Per Second" Vector__XXX
+ SG_ Speed_x_static_9 : 25|11@1+ (0.1,-102.4) [-102.4|102.3] "Meter Per Second" Vector__XXX
+ SG_ y_distance_static_9 : 13|12@1+ (0.064,-131.072) [-131.072|131.008] "Meter" Vector__XXX
+ SG_ x_distance_static_9 : 0|13@1+ (0.032,-60.8) [-60.8|201.31] "Meter" Vector__XXX
+
+BO_ 1431 Static_Object_8: 8 Starkenn_Radar
+ SG_ Speed_y_static_8 : 36|11@1+ (0.1,-102.4) [-102.4|102.3] "Meter Per Second" Vector__XXX
+ SG_ Speed_x_static_8 : 25|11@1+ (0.1,-102.4) [-102.4|102.3] "Meter Per Second" Vector__XXX
+ SG_ y_distance_static_8 : 13|12@1+ (0.064,-131.072) [-131.072|131.008] "Meter" Vector__XXX
+ SG_ x_distance_static_8 : 0|13@1+ (0.032,-60.8) [-60.8|201.31] "Meter" Vector__XXX
+
+BO_ 1430 Static_Object_7: 8 Starkenn_Radar
+ SG_ Speed_y_static_7 : 36|11@1+ (0.1,-102.4) [-102.4|102.3] "Meter Per Second" Vector__XXX
+ SG_ Speed_x_static_7 : 25|11@1+ (0.1,-102.4) [-102.4|102.3] "Meter Per Second" Vector__XXX
+ SG_ y_distance_static_7 : 13|12@1+ (0.064,-131.072) [-131.072|131.008] "Meter" Vector__XXX
+ SG_ x_distance_static_7 : 0|13@1+ (0.032,-60.8) [-60.8|201.31] "Meter" Vector__XXX
+
+BO_ 1817 Tracked_object_10: 8 Starkenn_Radar
+ SG_ Tracked_obj_10_Tracking_ID : 47|8@1+ (1,1) [1|256] "" Vector__XXX
+ SG_ Tracked_obj_10_Vy : 36|11@1+ (0.1,-102.4) [-102.4|102.3] "m/s" Vector__XXX
+ SG_ Tracked_obj_10_Vx : 25|11@1+ (0.1,-102.4) [-102.4|102.3] "m/s" Vector__XXX
+ SG_ Tracked_obj_10_Y_distance : 13|12@1+ (0.064,-131.072) [-131.072|131.071] "m" Vector__XXX
+ SG_ Tracked_obj_10_x_distance : 0|13@1+ (0.032,-60.8) [-60.8|201.312] "m" Vector__XXX
+
+BO_ 1816 Tracked_object_9: 8 Starkenn_Radar
+ SG_ Tracked_obj_9_Tracking_ID : 47|8@1+ (1,1) [1|256] "" Vector__XXX
+ SG_ Tracked_obj_9_Vy : 36|11@1+ (0.1,-102.4) [-102.4|102.3] "m/s" Vector__XXX
+ SG_ Tracked_obj_9_Vx : 25|11@1+ (0.1,-102.4) [-102.4|102.3] "m/s" Vector__XXX
+ SG_ Tracked_obj_9_Y_distance : 13|12@1+ (0.064,-131.072) [-131.072|131.071] "m" Vector__XXX
+ SG_ Tracked_obj_9_x_distance : 0|13@1+ (0.032,-60.8) [-60.8|201.312] "m" Vector__XXX
+
+BO_ 1815 Tracked_object_8: 8 Starkenn_Radar
+ SG_ Tracked_obj_8_Tracking_ID : 47|8@1+ (1,1) [1|256] "" Vector__XXX
+ SG_ Tracked_obj_8_Vy : 36|11@1+ (0.1,-102.4) [-102.4|102.3] "m/s" Vector__XXX
+ SG_ Tracked_obj_8_Vx : 25|11@1+ (0.1,-102.4) [-102.4|102.3] "m/s" Vector__XXX
+ SG_ Tracked_obj_8_x_distance : 0|13@1+ (0.032,-60.8) [-60.8|201.312] "m" Vector__XXX
+ SG_ Tracked_obj_8_Y_distance : 13|12@1+ (0.064,-131.072) [-131.072|131.071] "m" Vector__XXX
+
+BO_ 1814 Tracked_object_7: 8 Starkenn_Radar
+ SG_ Tracked_obj_7_Tracking_ID : 47|8@1+ (1,1) [1|256] "" Vector__XXX
+ SG_ Tracked_obj_7_Vy : 36|11@1+ (0.1,-102.4) [-102.4|102.3] "m/s" Vector__XXX
+ SG_ Tracked_obj_7_Vx : 25|11@1+ (0.1,-102.4) [-102.4|102.3] "m/s" Vector__XXX
+ SG_ Tracked_obj_7_x_distance : 0|13@1+ (0.032,-60.8) [-60.8|201.312] "m" Vector__XXX
+ SG_ Tracked_obj_7_Y_distance : 13|12@1+ (0.064,-131.072) [-131.072|131.071] "m" Vector__XXX
+
+BO_ 1813 Tracked_object_6: 8 Starkenn_Radar
+ SG_ Tracked_obj_6_Tracking_ID : 47|8@1+ (1,1) [1|256] "" Vector__XXX
+ SG_ Tracked_obj_6_Vy : 36|11@1+ (0.1,-102.4) [-102.4|102.3] "m/s" Vector__XXX
+ SG_ Tracked_obj_6_Vx : 25|11@1+ (0.1,-102.4) [-102.4|102.3] "m/s" Vector__XXX
+ SG_ Tracked_obj_6_x_distance : 0|13@1+ (0.032,-60.8) [-60.8|201.312] "m" Vector__XXX
+ SG_ Tracked_obj_6_Y_distance : 13|12@1+ (0.064,-131.072) [-131.072|131.071] "m" Vector__XXX
+
+BO_ 1812 Tracked_object_5: 8 Starkenn_Radar
+ SG_ Tracked_obj_5_Tracking_ID : 47|8@1+ (1,1) [1|256] "" Vector__XXX
+ SG_ Tracked_obj_5_Vy : 36|11@1+ (0.1,-102.4) [-102.4|102.3] "m/s" Vector__XXX
+ SG_ Tracked_obj_5_Vx : 25|11@1+ (0.1,-102.4) [-102.4|102.3] "m/s" Vector__XXX
+ SG_ Tracked_obj_5_x_distance : 0|13@1+ (0.032,-60.8) [-60.8|201.312] "m" Vector__XXX
+ SG_ Tracked_obj_5_Y_distance : 13|12@1+ (0.064,-131.072) [-131.072|131.071] "m" Vector__XXX
+
+BO_ 1811 Tracked_object_4: 8 Starkenn_Radar
+ SG_ Tracked_obj_4_Tracking_ID : 47|8@1+ (1,1) [1|256] "" Vector__XXX
+ SG_ Tracked_obj_4_Vy : 36|11@1+ (0.1,-102.4) [-102.4|102.3] "m/s" Vector__XXX
+ SG_ Tracked_obj_4_Vx : 25|11@1+ (0.1,-102.4) [-102.4|102.3] "m/s" Vector__XXX
+ SG_ Tracked_obj_4_x_distance : 0|13@1+ (0.032,-60.8) [-60.8|201.312] "m" Vector__XXX
+ SG_ Tracked_obj_4_Y_distance : 13|12@1+ (0.064,-131.072) [-131.072|131.071] "m" Vector__XXX
+
+BO_ 1810 Tracked_object_3: 8 Starkenn_Radar
+ SG_ Tracked_obj_3_Tracking_ID : 47|8@1+ (1,1) [1|256] "" Vector__XXX
+ SG_ Tracked_obj_3_Vy : 36|11@1+ (0.1,-102.4) [-102.4|102.3] "m/s" Vector__XXX
+ SG_ Tracked_obj_3_Vx : 25|11@1+ (0.1,-102.4) [-102.4|102.3] "m/s" Vector__XXX
+ SG_ Tracked_obj_3_x_distance : 0|13@1+ (0.032,-60.8) [-60.8|201.312] "m" Vector__XXX
+ SG_ Tracked_obj_3_Y_distance : 13|12@1+ (0.064,-131.072) [-131.072|131.071] "m" Vector__XXX
+
+BO_ 1808 Tracked_object_1: 8 Starkenn_Radar
+ SG_ Tracked_obj_1_Tracking_ID : 47|8@1+ (1,1) [1|256] "" Vector__XXX
+ SG_ Tracked_obj_1_Vy : 36|11@1+ (0.1,-102.4) [-102.4|102.3] "m/s" Vector__XXX
+ SG_ Tracked_obj_1_Vx : 25|11@1+ (0.1,-102.4) [-102.4|102.3] "m/s" Vector__XXX
+ SG_ Tracked_obj_1_x_distance : 0|13@1+ (0.032,-60.8) [-60.8|201.312] "m" Vector__XXX
+ SG_ Tracked_obj_1_Y_distance : 13|12@1+ (0.064,-131.072) [-131.072|131.008] "m" Vector__XXX
+
+BO_ 1809 Tracked_object_2: 8 Starkenn_Radar
+ SG_ Tracked_obj_2_Tracking_ID : 47|8@1+ (1,1) [1|256] "" Vector__XXX
+ SG_ Tracked_obj_2_Vy : 36|11@1+ (0.1,-102.4) [-102.4|102.3] "m/s" Vector__XXX
+ SG_ Tracked_obj_2_Vx : 25|11@1+ (0.1,-102.4) [-102.4|102.3] "m/s" Vector__XXX
+ SG_ Tracked_obj_2_x_distance : 0|13@1+ (0.032,-60.8) [-60.8|201.312] "m" Vector__XXX
+ SG_ Tracked_obj_2_Y_distance : 13|12@1+ (0.064,-131.072) [-131.072|131.071] "m" Vector__XXX
+
+BO_ 1793 Tracked_Object_control: 8 Starkenn_Radar
+ SG_ Number_of_tracked_objects : 0|8@1+ (1,0) [0|32] "" Vector__XXX
+
+BO_ 1013 Vehicle_Data_Speed: 4 ECU
+ SG_ Vehicle_Data_Speed : 0|15@1+ (0.01,0) [0|327.66] "kmph"  Starkenn_Radar
+
+BO_ 1777 Alarm_distance_Msg_: 7 Starkenn_Radar
+ SG_ Level_3_for_Moving : 48|8@1+ (0.5,0) [0|127.5] "m"  ECU
+ SG_ Level_2_for_Moving : 40|8@1+ (0.5,0) [0|127.5] "m"  ECU
+ SG_ Level_1_for_Moving : 32|8@1+ (0.5,0) [0|127.5] "m"  ECU
+ SG_ Level_3_for_Stationary : 16|8@1+ (0.5,0) [0|127.5] "m"  ECU
+ SG_ Level_2_for_Stationary : 8|8@1+ (0.5,0) [0|127.5] "m"  ECU
+ SG_ Level_1_for_Stationary : 0|8@1+ (0.5,0) [0|127.5] "m"  ECU
+
+BO_ 963 Radar_Alert_Zone_Setup: 4 ECU
+ SG_ RAZ_Setup_Yw : 24|4@1+ (0.2,0) [0|3] "m"  Starkenn_Radar
+ SG_ RAZ_Setup_Xi : 16|8@1+ (0.05,0) [0|12.75] "m"  Starkenn_Radar
+ SG_ RAZ_Setup_X : 0|16@1+ (0.5,0) [0|163.33] "m"  Starkenn_Radar
+
+BO_ 1429 Static_Object_6: 8 Starkenn_Radar
+ SG_ x_distance_static_6 : 0|13@1+ (0.032,-60.8) [-60.8|201.31] "Meter" Vector__XXX
+ SG_ y_distance_static_6 : 13|12@1+ (0.064,-131.072) [-131.072|131.008] "Meter" Vector__XXX
+ SG_ Speed_x_static_6 : 25|11@1+ (0.1,-102.4) [-102.4|102.3] "Meter Per Second" Vector__XXX
+ SG_ Speed_y_static_6 : 36|11@1+ (0.1,-102.4) [-102.4|102.3] "Meter Per Second" Vector__XXX
+ SG_ Object_reserve_static_6 : 47|17@1+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 1428 Static_Object_5: 8 Starkenn_Radar
+ SG_ x_distance_static_5 : 0|13@1+ (0.032,-60.8) [-60.8|201.31] "Meter" Vector__XXX
+ SG_ y_distance_static_5 : 13|12@1+ (0.064,-131.072) [-131.072|131.008] "Meter" Vector__XXX
+ SG_ Speed_x_static_5 : 25|11@1+ (0.1,-102.4) [-102.4|102.3] "Meter Per Second" Vector__XXX
+ SG_ Speed_y_static_5 : 36|11@1+ (0.1,-102.4) [-102.4|102.3] "Meter Per Second" Vector__XXX
+ SG_ Object_reserve_static_5 : 47|17@1+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 1427 Static_Object_4: 8 Starkenn_Radar
+ SG_ x_distance_static_4 : 0|13@1+ (0.032,-60.8) [-60.8|201.31] "Meter" Vector__XXX
+ SG_ y_distance_static_4 : 13|12@1+ (0.064,-131.072) [-131.072|131.008] "Meter" Vector__XXX
+ SG_ Speed_x_static_4 : 25|11@1+ (0.1,-102.4) [-102.4|102.3] "Meter Per Second" Vector__XXX
+ SG_ Speed_y_static_4 : 36|11@1+ (0.1,-102.4) [-102.4|102.3] "Meter Per Second" Vector__XXX
+ SG_ Object_reserve_static_4 : 47|17@1+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 1301 Dynamic_Object_6: 8 Starkenn_Radar
+ SG_ Object_reserve_dynamic6 : 47|17@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Speed_y_dynamic_6 : 36|11@1+ (0.1,-102.4) [-102.4|102.3] "Meter Per Second" Vector__XXX
+ SG_ Speed_x_dynamic_6 : 25|11@1+ (0.1,-102.4) [-102.4|102.3] "Meter Per Second" Vector__XXX
+ SG_ y_distance_dynamic_6 : 13|12@1+ (0.064,-131.072) [-131.072|131.008] "Meter" Vector__XXX
+ SG_ x_distance_dynamic_6 : 0|13@1+ (0.032,-60.8) [-60.8|201.312] "Meter" Vector__XXX
+
+BO_ 1300 Dynamic_Object_5: 8 Starkenn_Radar
+ SG_ Object_reserve_dynamic5 : 47|17@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Speed_y_dynamic_5 : 36|11@1+ (0.1,-102.4) [-102.4|102.3] "Meter Per Second" Vector__XXX
+ SG_ Speed_x_dynamic_5 : 25|11@1+ (0.1,-102.4) [-102.4|102.3] "Meter Per Second" Vector__XXX
+ SG_ y_distance_dynamic_5 : 13|12@1+ (0.064,-131.072) [-131.072|131.008] "Meter" Vector__XXX
+ SG_ x_distance_dynamic_5 : 0|13@1+ (0.032,-60.8) [-60.8|201.312] "Meter" Vector__XXX
+
+BO_ 1299 Dynamic_Object_4: 8 Starkenn_Radar
+ SG_ Object_reserve_dynamic4 : 47|17@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Speed_y_dynamic_4 : 36|11@1+ (0.1,-102.4) [-102.4|102.3] "Meter Per Second" Vector__XXX
+ SG_ Speed_x_dynamic_4 : 25|11@1+ (0.1,-102.4) [-102.4|102.3] "Meter Per Second" Vector__XXX
+ SG_ y_distance_dynamic_4 : 13|12@1+ (0.064,-131.072) [-131.072|131.008] "Meter" Vector__XXX
+ SG_ x_distance_dynamic_4 : 0|13@1+ (0.032,-60.8) [-60.8|201.312] "Meter" Vector__XXX
+
+BO_ 1424 Static_Object_1: 8 Starkenn_Radar
+ SG_ Object_reserve_static : 47|17@1+ (1,0) [0|65535] "NA" Vector__XXX
+ SG_ Speed_y_static_1 : 36|11@1+ (0.1,-102.4) [-102.4|102.3] "m/s" Vector__XXX
+ SG_ Speed_x_static_1 : 25|11@1+ (0.1,-102.4) [-102.4|102.3] "m/s" Vector__XXX
+ SG_ y_distance_static_1 : 13|12@1+ (0.064,-131.072) [-131.072|131.008] "m" Vector__XXX
+ SG_ x_distance_static_1 : 0|13@1+ (0.032,-60.8) [-60.8|201.312] "m" Vector__XXX
+
+BO_ 1296 Dynamic_Object_1: 8 Starkenn_Radar
+ SG_ Object_reserve_dynamic : 47|17@1+ (1,0) [0|65535] "NA" Vector__XXX
+ SG_ Speed_y_dynamic_1 : 36|11@1+ (0.1,-102.4) [-102.4|102.3] "m/s" Vector__XXX
+ SG_ Speed_x_dynamic_1 : 25|11@1+ (0.1,-102.4) [-102.4|102.3] "m/s" Vector__XXX
+ SG_ y_distance_dynamic_1 : 13|12@1+ (0.064,-131.072) [-131.072|131.008] "m" Vector__XXX
+ SG_ x_distance_dynamic_1 : 0|13@1+ (0.032,-60.8) [-60.8|201.312] "m" Vector__XXX
+
+BO_ 1409 Stationary_Object_Count: 8 Starkenn_Radar
+ SG_ Cycle_Count_stationary : 32|32@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Cycle_Time_Stationary : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Number_of_stationary_objects : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1281 Dynamic_Object_Count: 8 Starkenn_Radar
+ SG_ Cycle_count_dynamic : 32|32@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Cycle_time_dynamic : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Number_of_dynamic_objects : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1297 Dynamic_Object_2: 8 Starkenn_Radar
+ SG_ Speed_y_dynamic_2 : 36|11@1+ (0.1,-102.4) [-102.4|102.3] "Meter Per Second" Vector__XXX
+ SG_ Speed_x_dynamic_2 : 25|11@1+ (0.1,-102.4) [-102.4|102.3] "Meter Per Second" Vector__XXX
+ SG_ y_distance_dynamic_2 : 13|12@1+ (0.064,-131.072) [-131.072|131.008] "Meter" Vector__XXX
+ SG_ x_distance_dynamic_2 : 0|13@1+ (0.032,-60.8) [-60.8|201.312] "Meter" Vector__XXX
+
+BO_ 1298 Dynamic_Object_3: 8 Starkenn_Radar
+ SG_ Object_reserve_dynamic3 : 47|17@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Speed_y_dynamic_3 : 36|11@1+ (0.1,-102.4) [-102.4|102.3] "Meter Per Second" Vector__XXX
+ SG_ Speed_x_dynamic_3 : 25|11@1+ (0.1,-102.4) [-102.4|102.3] "Meter Per Second" Vector__XXX
+ SG_ y_distance_dynamic_3 : 13|12@1+ (0.064,-131.072) [-131.072|131.008] "Meter" Vector__XXX
+ SG_ x_distance_dynamic_3 : 0|13@1+ (0.032,-60.8) [-60.8|201.312] "Meter" Vector__XXX
+
+BO_ 1425 Static_Object_2: 8 Starkenn_Radar
+ SG_ x_distance_static_2 : 0|13@1+ (0.032,-60.8) [-60.8|201.31] "Meter" Vector__XXX
+ SG_ y_distance_static_2 : 13|12@1+ (0.064,-131.072) [-131.072|131.008] "Meter" Vector__XXX
+ SG_ Speed_x_static_2 : 25|11@1+ (0.1,-102.4) [-102.4|102.3] "Meter Per Second" Vector__XXX
+ SG_ Speed_y_static_2 : 36|11@1+ (0.1,-102.3) [-102.3|102.3] "Meter Per Second" Vector__XXX
+ SG_ Object_reserve_static_2 : 47|17@1+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 1426 Static_Object_3: 8 Starkenn_Radar
+ SG_ x_distance_static_3 : 0|13@1+ (0.032,-60.8) [-60.8|201.31] "Meter" Vector__XXX
+ SG_ y_distance_static_3 : 13|12@1+ (0.064,-131.072) [-131.072|131.008] "Meter" Vector__XXX
+ SG_ Speed_x_static_3 : 25|11@1+ (0.1,-102.4) [-102.4|102.3] "Meter Per Second" Vector__XXX
+ SG_ Speed_y_static_3 : 36|11@1+ (0.1,-102.4) [-102.4|102.3] "Meter Per Second" Vector__XXX
+ SG_ Object_reserve_static_3 : 47|17@1+ (1,0) [0|65535] "" Vector__XXX
+
+
+
+CM_ BO_ 1013 "Ego vehicle speed, Input to the radar ";
+CM_ SG_ 1013 Vehicle_Data_Speed "Ego vehicle Speed";
+CM_ BO_ 1777 "Alarm thresholds , output from radar";
+CM_ SG_ 963 RAZ_Setup_Yw "Width of alert Zone";
+CM_ SG_ 963 RAZ_Setup_Xi "Alert ignore Zone";
+CM_ SG_ 963 RAZ_Setup_X "Forward Length of Alert Zone";
+CM_ BO_ 1424 "Detail of most closest stationary object , Output from radar ";
+CM_ SG_ 1424 Object_reserve_static "NA";
+CM_ SG_ 1424 Speed_y_static_1 "Lateral speed or Horizontal component of speed ";
+CM_ SG_ 1424 Speed_x_static_1 "Longitudinal Speed or Vertical Component of speed ";
+CM_ SG_ 1424 y_distance_static_1 "Lateral Distance ";
+CM_ SG_ 1424 x_distance_static_1 "Longitudinal Distance";
+CM_ BO_ 1296 "Detail of most closest moving object , Output from radar ";
+CM_ SG_ 1296 Object_reserve_dynamic "NA";
+CM_ SG_ 1296 Speed_y_dynamic_1 "Lateral speed or Horizontal component of speed ";
+CM_ SG_ 1296 Speed_x_dynamic_1 "Longitudinal Speed or Vertical Component of speed ";
+CM_ SG_ 1296 y_distance_dynamic_1 "Lateral Distance ";
+CM_ SG_ 1296 x_distance_dynamic_1 "Longitudinal Distance";
+CM_ BO_ 1409 "Number of stationary objects , Output from the radar";
+CM_ SG_ 1281 Cycle_count_dynamic "NA";
+CM_ SG_ 1281 Cycle_time_dynamic "NA";
+CM_ SG_ 1281 Number_of_dynamic_objects "Number of moving objects ";
+BA_DEF_  "BusType" STRING ;
+BA_DEF_  "MultiplexExtEnabled" ENUM  "No","Yes";
+BA_DEF_DEF_  "BusType" "CAN";
+BA_DEF_DEF_  "MultiplexExtEnabled" "No";
+

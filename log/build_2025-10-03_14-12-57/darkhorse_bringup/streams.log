@@ -1,0 +1,20 @@
+[1.328s] Invoking command in '/home/ram_charan/DH_ws/src/darkhorse_bringup': PYTHONPATH=/home/ram_charan/DH_ws/build/darkhorse_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram_charan/DH_ws/install/darkhorse_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/darkhorse_bringup build --build-base /home/ram_charan/DH_ws/build/darkhorse_bringup/build install --record /home/ram_charan/DH_ws/build/darkhorse_bringup/install.log --single-version-externally-managed install_data
+[1.618s] running egg_info
+[1.619s] writing ../../build/darkhorse_bringup/darkhorse_bringup.egg-info/PKG-INFO
+[1.619s] writing dependency_links to ../../build/darkhorse_bringup/darkhorse_bringup.egg-info/dependency_links.txt
+[1.619s] writing entry points to ../../build/darkhorse_bringup/darkhorse_bringup.egg-info/entry_points.txt
+[1.619s] writing requirements to ../../build/darkhorse_bringup/darkhorse_bringup.egg-info/requires.txt
+[1.619s] writing top-level names to ../../build/darkhorse_bringup/darkhorse_bringup.egg-info/top_level.txt
+[1.621s] reading manifest file '../../build/darkhorse_bringup/darkhorse_bringup.egg-info/SOURCES.txt'
+[1.622s] writing manifest file '../../build/darkhorse_bringup/darkhorse_bringup.egg-info/SOURCES.txt'
+[1.623s] running build
+[1.623s] running build_py
+[1.623s] running install
+[1.623s] running install_lib
+[1.625s] running install_data
+[1.625s] running install_egg_info
+[1.627s] removing '/home/ram_charan/DH_ws/install/darkhorse_bringup/lib/python3.10/site-packages/darkhorse_bringup-0.0.0-py3.10.egg-info' (and everything under it)
+[1.627s] Copying ../../build/darkhorse_bringup/darkhorse_bringup.egg-info to /home/ram_charan/DH_ws/install/darkhorse_bringup/lib/python3.10/site-packages/darkhorse_bringup-0.0.0-py3.10.egg-info
+[1.628s] running install_scripts
+[1.655s] writing list of installed files to '/home/ram_charan/DH_ws/build/darkhorse_bringup/install.log'
+[1.683s] Invoked command in '/home/ram_charan/DH_ws/src/darkhorse_bringup' returned '0': PYTHONPATH=/home/ram_charan/DH_ws/build/darkhorse_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram_charan/DH_ws/install/darkhorse_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/darkhorse_bringup build --build-base /home/ram_charan/DH_ws/build/darkhorse_bringup/build install --record /home/ram_charan/DH_ws/build/darkhorse_bringup/install.log --single-version-externally-managed install_data

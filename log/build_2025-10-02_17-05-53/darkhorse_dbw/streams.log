@@ -1,0 +1,46 @@
+[1.278s] Invoking command in '/home/ram_charan/DH_ws/build/darkhorse_dbw': PYTHONPATH=/home/ram_charan/DH_ws/build/darkhorse_dbw/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram_charan/DH_ws/install/darkhorse_dbw/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ram_charan/DH_ws/build/darkhorse_dbw/build
+[1.584s] running develop
+[1.774s] Removing /home/ram_charan/DH_ws/install/darkhorse_dbw/lib/python3.10/site-packages/darkhorse-dbw.egg-link (link to .)
+[1.807s] Invoked command in '/home/ram_charan/DH_ws/build/darkhorse_dbw' returned '0': PYTHONPATH=/home/ram_charan/DH_ws/build/darkhorse_dbw/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram_charan/DH_ws/install/darkhorse_dbw/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ram_charan/DH_ws/build/darkhorse_dbw/build
+[1.809s] Invoking command in '/home/ram_charan/DH_ws/src/darkhorse_dbw': PYTHONPATH=/home/ram_charan/DH_ws/build/darkhorse_dbw/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram_charan/DH_ws/install/darkhorse_dbw/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/darkhorse_dbw build --build-base /home/ram_charan/DH_ws/build/darkhorse_dbw/build install --record /home/ram_charan/DH_ws/build/darkhorse_dbw/install.log --single-version-externally-managed install_data --force
+[2.098s] running egg_info
+[2.099s] writing ../../build/darkhorse_dbw/darkhorse_dbw.egg-info/PKG-INFO
+[2.099s] writing dependency_links to ../../build/darkhorse_dbw/darkhorse_dbw.egg-info/dependency_links.txt
+[2.100s] writing entry points to ../../build/darkhorse_dbw/darkhorse_dbw.egg-info/entry_points.txt
+[2.100s] writing requirements to ../../build/darkhorse_dbw/darkhorse_dbw.egg-info/requires.txt
+[2.100s] writing top-level names to ../../build/darkhorse_dbw/darkhorse_dbw.egg-info/top_level.txt
+[2.102s] reading manifest file '../../build/darkhorse_dbw/darkhorse_dbw.egg-info/SOURCES.txt'
+[2.104s] writing manifest file '../../build/darkhorse_dbw/darkhorse_dbw.egg-info/SOURCES.txt'
+[2.104s] running build
+[2.104s] running build_py
+[2.104s] creating /home/ram_charan/DH_ws/build/darkhorse_dbw/build
+[2.104s] creating /home/ram_charan/DH_ws/build/darkhorse_dbw/build/lib
+[2.105s] creating /home/ram_charan/DH_ws/build/darkhorse_dbw/build/lib/darkhorse_dbw
+[2.105s] copying darkhorse_dbw/hal_node.py -> /home/ram_charan/DH_ws/build/darkhorse_dbw/build/lib/darkhorse_dbw
+[2.105s] copying darkhorse_dbw/__init__.py -> /home/ram_charan/DH_ws/build/darkhorse_dbw/build/lib/darkhorse_dbw
+[2.105s] creating /home/ram_charan/DH_ws/build/darkhorse_dbw/build/lib/darkhorse_dbw/nodes
+[2.105s] copying darkhorse_dbw/nodes/__init__.py -> /home/ram_charan/DH_ws/build/darkhorse_dbw/build/lib/darkhorse_dbw/nodes
+[2.106s] copying darkhorse_dbw/nodes/speed_node.py -> /home/ram_charan/DH_ws/build/darkhorse_dbw/build/lib/darkhorse_dbw/nodes
+[2.106s] running install
+[2.106s] running install_lib
+[2.107s] creating /home/ram_charan/DH_ws/install/darkhorse_dbw/lib/python3.10/site-packages/darkhorse_dbw
+[2.107s] creating /home/ram_charan/DH_ws/install/darkhorse_dbw/lib/python3.10/site-packages/darkhorse_dbw/nodes
+[2.107s] copying /home/ram_charan/DH_ws/build/darkhorse_dbw/build/lib/darkhorse_dbw/nodes/__init__.py -> /home/ram_charan/DH_ws/install/darkhorse_dbw/lib/python3.10/site-packages/darkhorse_dbw/nodes
+[2.107s] copying /home/ram_charan/DH_ws/build/darkhorse_dbw/build/lib/darkhorse_dbw/nodes/speed_node.py -> /home/ram_charan/DH_ws/install/darkhorse_dbw/lib/python3.10/site-packages/darkhorse_dbw/nodes
+[2.107s] copying /home/ram_charan/DH_ws/build/darkhorse_dbw/build/lib/darkhorse_dbw/hal_node.py -> /home/ram_charan/DH_ws/install/darkhorse_dbw/lib/python3.10/site-packages/darkhorse_dbw
+[2.107s] copying /home/ram_charan/DH_ws/build/darkhorse_dbw/build/lib/darkhorse_dbw/__init__.py -> /home/ram_charan/DH_ws/install/darkhorse_dbw/lib/python3.10/site-packages/darkhorse_dbw
+[2.108s] byte-compiling /home/ram_charan/DH_ws/install/darkhorse_dbw/lib/python3.10/site-packages/darkhorse_dbw/nodes/__init__.py to __init__.cpython-310.pyc
+[2.108s] byte-compiling /home/ram_charan/DH_ws/install/darkhorse_dbw/lib/python3.10/site-packages/darkhorse_dbw/nodes/speed_node.py to speed_node.cpython-310.pyc
+[2.109s] byte-compiling /home/ram_charan/DH_ws/install/darkhorse_dbw/lib/python3.10/site-packages/darkhorse_dbw/hal_node.py to hal_node.cpython-310.pyc
+[2.110s] byte-compiling /home/ram_charan/DH_ws/install/darkhorse_dbw/lib/python3.10/site-packages/darkhorse_dbw/__init__.py to __init__.cpython-310.pyc
+[2.111s] running install_data
+[2.111s] copying resource/darkhorse_dbw -> /home/ram_charan/DH_ws/install/darkhorse_dbw/share/ament_index/resource_index/packages
+[2.111s] copying package.xml -> /home/ram_charan/DH_ws/install/darkhorse_dbw/share/darkhorse_dbw
+[2.111s] copying config/Starkenn_Orion_Radar_x_aBAJA.dbc -> /home/ram_charan/DH_ws/install/darkhorse_dbw/share/darkhorse_dbw/config
+[2.111s] running install_egg_info
+[2.115s] Copying ../../build/darkhorse_dbw/darkhorse_dbw.egg-info to /home/ram_charan/DH_ws/install/darkhorse_dbw/lib/python3.10/site-packages/darkhorse_dbw-0.0.0-py3.10.egg-info
+[2.115s] running install_scripts
+[2.142s] Installing hal_node script to /home/ram_charan/DH_ws/install/darkhorse_dbw/lib/darkhorse_dbw
+[2.142s] Installing speed_node script to /home/ram_charan/DH_ws/install/darkhorse_dbw/lib/darkhorse_dbw
+[2.142s] writing list of installed files to '/home/ram_charan/DH_ws/build/darkhorse_dbw/install.log'
+[2.175s] Invoked command in '/home/ram_charan/DH_ws/src/darkhorse_dbw' returned '0': PYTHONPATH=/home/ram_charan/DH_ws/build/darkhorse_dbw/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram_charan/DH_ws/install/darkhorse_dbw/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/darkhorse_dbw build --build-base /home/ram_charan/DH_ws/build/darkhorse_dbw/build install --record /home/ram_charan/DH_ws/build/darkhorse_dbw/install.log --single-version-externally-managed install_data --force

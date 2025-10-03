@@ -1,0 +1,6 @@
+[console_scripts]
+camera_node = darkhorse_perception.camera_node:main
+radar_rx_node = darkhorse_perception.radar_rx_node:main
+radar_visualizer = darkhorse_perception.radar_visualizer:main
+vehicle_speed_node = darkhorse_perception.vehicle_speed_node:main
+

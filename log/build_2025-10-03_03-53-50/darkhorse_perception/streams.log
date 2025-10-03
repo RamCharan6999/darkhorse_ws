@@ -1,0 +1,32 @@
+[1.817s] Invoking command in '/home/ram_charan/DH_ws/build/darkhorse_perception': PYTHONPATH=/home/ram_charan/DH_ws/build/darkhorse_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram_charan/DH_ws/install/darkhorse_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ram_charan/DH_ws/build/darkhorse_perception/build --no-deps symlink_data --force
+[2.191s] running develop
+[2.445s] running egg_info
+[2.445s] writing darkhorse_perception.egg-info/PKG-INFO
+[2.446s] writing dependency_links to darkhorse_perception.egg-info/dependency_links.txt
+[2.446s] writing entry points to darkhorse_perception.egg-info/entry_points.txt
+[2.447s] writing requirements to darkhorse_perception.egg-info/requires.txt
+[2.447s] writing top-level names to darkhorse_perception.egg-info/top_level.txt
+[2.451s] reading manifest file 'darkhorse_perception.egg-info/SOURCES.txt'
+[2.453s] writing manifest file 'darkhorse_perception.egg-info/SOURCES.txt'
+[2.457s] running build_ext
+[2.457s] Creating /home/ram_charan/DH_ws/install/darkhorse_perception/lib/python3.10/site-packages/darkhorse-perception.egg-link (link to .)
+[2.459s] Installing camera_node script to /home/ram_charan/DH_ws/install/darkhorse_perception/lib/darkhorse_perception
+[2.459s] Installing radar_rx_node script to /home/ram_charan/DH_ws/install/darkhorse_perception/lib/darkhorse_perception
+[2.459s] Installing radar_visualizer script to /home/ram_charan/DH_ws/install/darkhorse_perception/lib/darkhorse_perception
+[2.460s] 
+[2.460s] Installed /home/ram_charan/DH_ws/build/darkhorse_perception
+[2.460s] running symlink_data
+[2.460s] symbolically linking /home/ram_charan/DH_ws/build/darkhorse_perception/resource/darkhorse_perception -> /home/ram_charan/DH_ws/install/darkhorse_perception/share/ament_index/resource_index/packages
+[2.460s] symbolically linking /home/ram_charan/DH_ws/build/darkhorse_perception/package.xml -> /home/ram_charan/DH_ws/install/darkhorse_perception/share/darkhorse_perception
+[2.460s] symbolically linking /home/ram_charan/DH_ws/build/darkhorse_perception/launch/radar_min.launch.py -> /home/ram_charan/DH_ws/install/darkhorse_perception/share/darkhorse_perception/launch
+[2.461s] symbolically linking /home/ram_charan/DH_ws/build/darkhorse_perception/launch/camera_perception.launch.py -> /home/ram_charan/DH_ws/install/darkhorse_perception/share/darkhorse_perception/launch
+[2.461s] symbolically linking /home/ram_charan/DH_ws/build/darkhorse_perception/launch/radar_viz.launch.py -> /home/ram_charan/DH_ws/install/darkhorse_perception/share/darkhorse_perception/launch
+[2.461s] symbolically linking /home/ram_charan/DH_ws/build/darkhorse_perception/config/radar.yaml -> /home/ram_charan/DH_ws/install/darkhorse_perception/share/darkhorse_perception/config
+[2.461s] symbolically linking /home/ram_charan/DH_ws/build/darkhorse_perception/config/camera_params.yaml -> /home/ram_charan/DH_ws/install/darkhorse_perception/share/darkhorse_perception/config
+[2.461s] symbolically linking /home/ram_charan/DH_ws/build/darkhorse_perception/rviz/radar.rviz -> /home/ram_charan/DH_ws/install/darkhorse_perception/share/darkhorse_perception/rviz
+[2.465s] symbolically linking /home/ram_charan/DH_ws/build/darkhorse_perception/models/ts_yolov8n.onnx -> /home/ram_charan/DH_ws/install/darkhorse_perception/share/darkhorse_perception/models
+[2.469s] symbolically linking /home/ram_charan/DH_ws/build/darkhorse_perception/models/tl_yolov8n.onnx -> /home/ram_charan/DH_ws/install/darkhorse_perception/share/darkhorse_perception/models
+[2.470s] symbolically linking /home/ram_charan/DH_ws/build/darkhorse_perception/models/my_traffic_model.pt -> /home/ram_charan/DH_ws/install/darkhorse_perception/share/darkhorse_perception/models
+[2.476s] symbolically linking /home/ram_charan/DH_ws/build/darkhorse_perception/models/yolov8n.pt -> /home/ram_charan/DH_ws/install/darkhorse_perception/share/darkhorse_perception/models
+[2.477s] symbolically linking /home/ram_charan/DH_ws/build/darkhorse_perception/models/sign_labels.txt -> /home/ram_charan/DH_ws/install/darkhorse_perception/share/darkhorse_perception/models
+[2.522s] Invoked command in '/home/ram_charan/DH_ws/build/darkhorse_perception' returned '0': PYTHONPATH=/home/ram_charan/DH_ws/build/darkhorse_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram_charan/DH_ws/install/darkhorse_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ram_charan/DH_ws/build/darkhorse_perception/build --no-deps symlink_data --force

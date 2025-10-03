@@ -1,0 +1,9 @@
+[console_scripts]
+acc_node = darkhorse_control.acc_node:main
+aeb_controller = darkhorse_control.aeb_controller:main
+aeb_node = darkhorse_control.aeb_node:main
+fake_speed_publisher = darkhorse_control.fake_speed_publisher:main
+joy_bridge = darkhorse_control.joy_bridge:main
+lka_node = darkhorse_control.lka_node:main
+mission_control_node = darkhorse_control.mission_control_node:main
+

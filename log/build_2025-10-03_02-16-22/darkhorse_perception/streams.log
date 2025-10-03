@@ -1,0 +1,19 @@
+[0.930s] Invoking command in '/home/ram_charan/DH_ws/build/darkhorse_perception': PYTHONPATH=/home/ram_charan/DH_ws/build/darkhorse_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram_charan/DH_ws/install/darkhorse_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ram_charan/DH_ws/build/darkhorse_perception/build --no-deps symlink_data
+[1.132s] running develop
+[1.256s] running egg_info
+[1.256s] writing darkhorse_perception.egg-info/PKG-INFO
+[1.257s] writing dependency_links to darkhorse_perception.egg-info/dependency_links.txt
+[1.257s] writing entry points to darkhorse_perception.egg-info/entry_points.txt
+[1.257s] writing requirements to darkhorse_perception.egg-info/requires.txt
+[1.257s] writing top-level names to darkhorse_perception.egg-info/top_level.txt
+[1.258s] reading manifest file 'darkhorse_perception.egg-info/SOURCES.txt'
+[1.259s] writing manifest file 'darkhorse_perception.egg-info/SOURCES.txt'
+[1.260s] running build_ext
+[1.261s] Creating /home/ram_charan/DH_ws/install/darkhorse_perception/lib/python3.10/site-packages/darkhorse-perception.egg-link (link to .)
+[1.261s] Installing camera_node script to /home/ram_charan/DH_ws/install/darkhorse_perception/lib/darkhorse_perception
+[1.261s] Installing radar_rx_node script to /home/ram_charan/DH_ws/install/darkhorse_perception/lib/darkhorse_perception
+[1.262s] Installing radar_visualizer script to /home/ram_charan/DH_ws/install/darkhorse_perception/lib/darkhorse_perception
+[1.262s] 
+[1.262s] Installed /home/ram_charan/DH_ws/build/darkhorse_perception
+[1.262s] running symlink_data
+[1.294s] Invoked command in '/home/ram_charan/DH_ws/build/darkhorse_perception' returned '0': PYTHONPATH=/home/ram_charan/DH_ws/build/darkhorse_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram_charan/DH_ws/install/darkhorse_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ram_charan/DH_ws/build/darkhorse_perception/build --no-deps symlink_data
